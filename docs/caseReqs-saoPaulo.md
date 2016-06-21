@@ -1,7 +1,8 @@
-Case: requisitos da prefeitura de São Paulo
+**Case: requisitos da prefeitura de São Paulo**
 
-Recomendações técnicas para o back-end do "Portal de Transparência" da capital de SP
+#Recomendações técnicas para o back-end do "Portal de Transparência" da capital de SP
 
+...
 
 ## Links externos
 
