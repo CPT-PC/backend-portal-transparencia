@@ -1,6 +1,13 @@
 # backend-portal-transparencia
 Recomendações técnicas para o *back-end* de um "Portal da Transparência" de um município de SP.
 
+-----
+Este projeto está em fase de **RASCUNHO**, e teve como motivação inicial a formação de um coletivo para dar resposta e continuidade à [audiência pública da CGM-SP](https://github.com/CPT-PC/backend-portal-transparencia/blob/master/docs/caseReqs-saoPaulo.md). **Por onde começar? ver [Sugestões](https://github.com/CPT-PC/backend-portal-transparencia/issues?q=is%3Aissue+is%3Aopen+label%3ASUGEST%C3%83O)**
+
+Peter e Rodolfo pretendem colocar "ordem na casa" no dia 1/jul.
+
+-----
+
 Portais de contextualização:
 * Portal da Transparência do governo federal http://www.portaltransparencia.gov.br/
 * Portal da Transparência do governo estadual (SP) http://www.portaltransparencia.gov.br/
