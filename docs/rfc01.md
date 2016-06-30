@@ -1,33 +1,45 @@
+---
+title: RFC 01 - Padrões recomendados
+type: STD
+vers: 0.1
+vers_status: RASCUNHO
+endorsed_n: 2
+endorsed_status: waiting
+layout: page
+issue: 1
+---
+
 &#160; (série "[Request For Comments](https://en.wikipedia.org/wiki/Request_for_Comments)" aqui do pedaço)
 
-**RFC 01 - Padrões recomendados**
+#RFC 01 - Padrões recomendados
 
-* ''tipo'': STD (recomendação)
-* ''status'': proposição, versão rascunho
-* ''votos pela proposição'': [issue1](https://github.com/CPT-PC/backend-portal-transparencia/issues/1)
-* ''votos por iten'': planilha consolidando debate da issue1
- 
-# Conceitos consensuais
+Recomendação dos padrões a serem adotados no intercâmbio de dados entre módulos, na exposição de dados e na exposição de conteúdos de um Portal da Pransparência. 
+Discussões e votos originais desta RFC em [*issue-1*](https://github.com/CPT-PC/backend-portal-transparencia/issues/1).
 
-* arquitetura [SOA (service-oriented architecture)](https://www.wikidata.org/wiki/Q220644) e modularização com camadas.
-* [REST](https://www.wikidata.org/wiki/Q749568) na comunicação HTTP entre módulos 
+## Conceitos consensuais
 
-# Padrões fortemente recomendados
+* arquitetura [SOA (service-oriented architecture)](https://www.wikidata.org/wiki/Q220644) e modularização com camadas. [2 votos]
+* [REST](https://www.wikidata.org/wiki/Q749568) na comunicação HTTP entre módulos.  [2 votos] 
 
-* [JSON RPC](http://www.jsonrpc.org/specification) no empacotamento dos dados intercambiados.
+## Padrões fortemente recomendados
 
-* HTML5 na publicação de conteúdos
-    * Marcação [Microdata](https://en.wikipedia.org/wiki/Microdata_(HTML)) e [schemaOrg](http://schema.org/) para demandas de Web Semântica.
+* HTML5 na publicação de conteúdos  [2 votos] e XHTML5 na representação interna dos conteúdos  [2 votos].
+
+    * Marcação [Microdata](https://en.wikipedia.org/wiki/Microdata_(HTML)) 
+    * Referencial semântico, em ordem [1 voto] de precedência: [schemaOrg](http://schema.org/)  [1 voto]; [Wikidata](https://www.wikidata.org) [1 voto]; ordem de mais recomendados do [LOV](http://lov.okfn.org/) [1 voto].
+       * (outra ordem) [0 votos]
 
 * CSV fixado pela [RFC 4180](https://tools.ietf.org/html/rfc4180) e [W3C tabular-data-model](https://www.w3.org/TR/tabular-data-model/), compatível demais opções JSON e Web Semâtica.
 
+* [JSON RPC](http://www.jsonrpc.org/specification) no empacotamento dos dados intercambiados.  [2 votos]
+
 * [ePING](http://eping.governoeletronico.gov.br/) 
-   * [UTF8](https://en.wikipedia.org/wiki/UTF-8) não se usa mais ASCII,  Windows-1252 ou ISO 8859-1. Qualquer JSON, CSV, XML, HTML ou TXT deve ser codificado em UTF8. 
-   * LEXML ...
-       * [LEX URN](), faz parte do LexML 
-   * ... 
+
+   * [UTF-8](https://en.wikipedia.org/wiki/UTF-8) não se usa mais ASCII,  Windows-1252 ou ISO 8859-1. Qualquer JSON, CSV, XML, HTML ou TXT deve ser codificado em UTF8. 
 
 # Outros padrões recomendados
 
-
+* Identificação única (transparente) de documentos legislativos e jurídicos através de [URN LEX](https://pt.wikipedia.org/wiki/Lex_(URN)), qeu faz parte do ePING e do [LexML](http://projeto.lexml.gov.br/). [1 voto]
+       
+* ... 
 
