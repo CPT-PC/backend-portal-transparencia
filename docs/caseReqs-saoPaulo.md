@@ -16,7 +16,7 @@
 * Diário Oficial da Cidade de São Paulo sábado, 18 de junho de 2016, pag. 154
 
 ------
-Transcrição do [DOM-SP contendo a ata](http://www.docidadesp.imprensaoficial.com.br/RenderizadorPDF.aspx?ClipID=2M6239RR2LKA4e2IU4MOJVDPFN0), 
+Transcrição do [DOM-SP contendo a ata](http://www.docidadesp.imprensaoficial.com.br/RenderizadorPDF.aspx?ClipID=2M6239RR2LKA4e2IU4MOJVDPFN0). Evento [anunciado aqui](http://www.prefeitura.sp.gov.br/cidade/secretarias/controladoria_geral/noticias/?p=216734) e [**matéria resumindo aqui**](http://www.prefeitura.sp.gov.br/cidade/secretarias/controladoria_geral/noticias/?p=217291) (ver [slides da apresentação](http://www.prefeitura.sp.gov.br/cidade/secretarias/upload/controladoria_geral/Desenvolvimento_Portal_Transparencia.pdf))
 
 ## ATA DE AUDIÊNCIA PÚBLICA
 
