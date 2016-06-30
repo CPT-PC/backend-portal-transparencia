@@ -11,7 +11,7 @@ issue: 1
 
 &#160; (série "[Request For Comments](https://en.wikipedia.org/wiki/Request_for_Comments)" aqui do pedaço)
 
-#RFC 01 - Padrões recomendados
+#RFC 01 - Padrões *data-interchange* recomendados
 
 Recomendação dos padrões a serem adotados no intercâmbio de dados entre módulos, na exposição de dados e na exposição de conteúdos de um Portal da Pransparência. 
 Discussões e votos originais desta RFC em [*issue-1*](https://github.com/CPT-PC/backend-portal-transparencia/issues/1).
