@@ -9,12 +9,12 @@ layout: page
 issue: 1
 ---
 
-&#160; (série "[Request For Comments](https://en.wikipedia.org/wiki/Request_for_Comments)" aqui do pedaço)
+&#160; (série "[Request For Comments](https://en.wikipedia.org/wiki/Request_for_Comments) **deste projeto**)
 
 #RFC 01 - Padrões *data-interchange* recomendados
 
-Recomendação dos padrões a serem adotados no intercâmbio de dados entre módulos, na exposição de dados e na exposição de conteúdos de um Portal da Pransparência. 
-Discussões e votos originais desta RFC em [*issue-1*](https://github.com/CPT-PC/backend-portal-transparencia/issues/1).
+Recomendação dos padrões a serem adotados no intercâmbio de dados entre módulos, na exposição de dados e na exposição de conteúdos de um Portal da Pransparência Municipal. 
+Discussões desta RFC em [*issue-1*](https://github.com/CPT-PC/backend-portal-transparencia/issues/1), votos na planilha aberta de votações.
 
 ## Conceitos consensuais
 
