@@ -1,0 +1,362 @@
+A seguir resultado de uso do "pdftotext version 0.24.5" com o arquivo Desenvolvimento_Portal_Transparencia.pdf
+
+-------------
+
+Desenvolvimento do
+Portal da Transparência
+Audiência pública com empresas interessadas
+Controladoria Geral do Município
+Prefeitura de São Paulo
+
+O que precisa ser feito?
+Um CMS contendo visualizações interativas, a
+partir de scrapers e de datasets da Prefeitura
+
+Fontes de dados
+Sistemas internos à PMSP:
+PRODAM (Empresa de Tecnologia da Informação e Comunicação do Município de São Paulo)
+
+Sistemas externos à PMSP:
+Compras Eletrônicas: Comprasnet, BEC e E-Licitações
+Publicações no Diário Oficial: Imprensa Oficial
+
+Páginas Web:
+de outros órgãos da PMSP e de demais instituições de governo que sistematicamente produzam dados
+sobre o município de São Paulo
+
+Como? (Princípios gerais)
+1.
+2.
+3.
+4.
+5.
+6.
+
+Metodologias ágeis
+Código Aberto
+Interface amigável e navegação com poucos cliques
+Acessibilidade
+Mobile-first
+Não reinvente a roda (WP/Drupal/Django/Plone?)
+
+Módulos e
+funcionalidades
+
+1. Módulo Funcionalismo (Atual)
+Filtros de
+consulta
+
+Exportação de
+relatórios
+
+1. Módulo Funcionalismo (Novo)
+Visualização de
+detalhamento
+Da remuneração bruta
+1.
+Padrão
+2.
+Cargo em comissão
+3.
+Horas suplementares
+4.
+Auxílio Transporte
+5.
+Auxílio Alimentação
+6.
+Auxílio Refeição
+7.
+Gratificações (quinquênio, sexta parte, gratificação de
+gabinete etc)
+8.
+Demais elementos
+Dos descontos
+9.
+Impostos (soma dos valores pagos com Previdência e
+imposto de renda)
+10.
+Outros descontos (descontos facultativos + descontos gerais)
+
+Exportação de
+relatórios em
+formato aberto
+
+Participação na ADM. IND.
+11.
+Vencimentos
+12.
+Encargos
+13.
+Benefícios
+
+1. Módulo Funcionalismo (Novo)
+●
+●
+●
+●
+●
+
+Exportação em formato aberto
+Mais filtros de consulta
+Detalhamento de composição salarial
+Inclusão de novos dados (perfil do funcionalismo)
+Visualizações pré-definidas (gráficos)
+
+Fonte de dados: PRODAM (SMGestão)
+Formato: CSV
+Periodicidade atualização: Mensal
+
+2. Módulos Contas Públicas (Atual)
+Vários aspectos
+das Contas
+Públicas
+
+Consultas PréFormatadas
+
+Exportação de
+relatórios
+Consulta por
+palavra-chave
+
+2. Módulos Contas Públicas (Novo)
+●
+●
+●
+●
+●
+●
+
+Exportação em formato aberto
+Mais filtros de consulta
+Consulta por palavra-chave
+Navegação e layout mais amigáveis
+Integração com outros módulos do Portal
+Visualizações pré-definidas (gráficos)
+
+Fonte de dados: Sec. Finanças
+Formato: XLS, CSV
+Periodicidade atualização: diária, semanal
+
+3. Dados Abertos (em funcionamento)
+
+3. Dados Abertos (integração)
+● Página de informação sobre o projeto e integração ao novo Portal da
+Transparência
+● Notificação de novas bases de dados; estatísticas dos dados disponíveis do
+Portal e bases mais populares
+
+Fonte de dados: CGM-COPI (conteúdo); API CKAN
+Formato: texto
+Periodicidade atualização: eventual
+
+4. Área do Desenvolvedor (Novo)
+● Oferecer meios para que o usuário contate a equipe responsável pela gestão
+do Portal da Transparência, explore as potencialidades e usos da informação
+disponível e interaja com outros usuários.
+● Duas seções de navegação com ferramentas e objetivos diferentes:
+■ Radar de Aplicativos
+■ Área de APIs
+●
+●
+●
+●
+
+Atualização automática dos dados
+Acesso a APIs
+Repositório de códigos
+Ferramenta de comentários
+
+4.1. Radar de aplicativos
+● Aplicativos desenvolvidos pela sociedade civil que tenham a finalidade de
+contribuir para o acesso a serviços e informações do Município de São Paulo.
+● Redirecionamento para páginas web e download;
+● Ficha breve dos apps;
+● Separação por áreas temáticas;
+● Busca por palavra-chave
+Fonte de dados: páginas web dos apps
+Formato: links
+Periodicidade atualização: variada
+
+4.2. Área de APIs
+● APIs desenvolvidas no projeto e link para outras da Prefeitura
+● Devem dispensar cadastro;
+● Disponibilização por lista temáticas;
+● Busca por palavra-chave;
+● Área para comentários ;
+
+5. Módulo Compras Públicas (Novo)
+
+Campo de busca
+por palavachave
+
+Relatórios
+sintéticos prédefinidos
+
+Seções
+
+Ferramentas de
+visualização
+gráfica
+
+5. Módulo Compras Públicas
+
+Descritivos dos
+objetos
+
+RSS/ Seguir /
+Alerta
+
+Ferramentas de
+visualização gráfica
+de processos
+
+Visualizador de
+geolocalização
+Espaço para
+comentários e
+interações
+
+Download de
+arquivos
+
+5. Módulo Compras Públicas
+● Integração e o gerenciamento de dados de modo a produzir novas bases de
+informação
+● Possibilidade de visualização e download do que é visto
+● Atualização automática dos dados e integração com módulos do Portal
+● Filtros, ex.: órgão, licitação, processo, valores e faixas de valores
+● Integração com outros módulos do Portal
+Fonte de dados: APIs de sistemas de compras na web (Comprasnet, BEC e ELicitações), Diário Oficial (PUBNET); sistemas da PMSP (PRODAM) ; outros
+módulos do Portal; sistemas de outros órgãos da públicos;
+Formato: XLS; CSV; TXT; ODT; HTML; PDF
+Periodicidade atualização: diária
+
+6. Módulo de Consulta de Contratos, Convênios e
+Parcerias (Atual)
+Exportação de
+relatórios
+Filtros de
+consulta
+
+6. Módulo de Consulta de Contratos, Convênios e
+Parcerias (Atual)
+●
+●
+●
+●
+●
+
+Exportação em formato aberto
+Mais filtros de consulta
+Detalhamento das informações
+visualização do estágio do processo
+RSS/ Seguir / Alerta
+
+● Geolocalização da prestação do
+contrato
+● Área exclusiva de
+acompanhamento da
+Organizações Sociais de Saúde,
+Educação e Cultura
+
+Fonte de dados: sistemas da PMSP (SF + SMGestão) e de unidades (ex. Saúde e
+Educação); Diário Oficial (PUBNET)
+Formato: CSV; XLS; PDF; ODT; TXT; WEB
+Periodicidade atualização: mensal
+
+7. Módulo Controle Social (Novo)
+● Incorporação do blog Controladoria Cidadã (desenvolvido);
+a.
+b.
+
+Cardápio de informações do Portal da Transparência para acompanhamento de
+atualizações através de Alertas (como contratos, licitações, execução orçamentária etc.);
+publicação de notícias, vídeos, tutoriais, biblioteca, games
+
+c.
+
+Informações relacionadas a controle social de outros entes públicos.
+
+● Página com dados de utilização do Portal (visualização e download)
+
+Fonte de dados: CGM-COPI;
+Formato: imagens, vídeos, textos, apresentações (Prezi, ppt,etc);
+Periodicidade atualização: eventual
+
+8. Módulo Subprefeituras (Atual)
+Orçamento
+específico
+
+Obras e
+informações
+urbanas por
+recorte local
+
+Infos descritivas
+resumidas
+
+Limites
+administrativos
+
+8. Módulo Subprefeituras (Novo)
+● Visualização e consulta de dados e informações correspondentes ao território
+● Mapas interativos e geolocalização
+● Disponibilização de informações de outros módulos para o recorte da Subs
+● Serviços disponibilizados (Licenças, Alvarás, Certificados, Obras, Zeladoria)
+
+Fonte de dados: módulos do Portal; sistemas da PMSP
+(PRODAM+SEL+SIURB+CoordSubprefeituras)
+Formato: WEB, XLS, CSV;
+Periodicidade atualização: variada
+
+9. Módulo Acesso à Informação (Atual)
+
+Documentos da
+CMAI
+
+Materiais de
+orientação
+
+Sistema de
+Pedido de Acesso
+à Informação
+
+9. Módulo Acesso à Informação (Novo)
+● Bases de dados anuais dos pedidos,
+● Relatórios anuais e informações da Comissão Municipal de Acesso à
+Informação
+● Novo layout
+● Incorporação da plataforma Pedido Respondido
+Fonte de dados: PRODAM; CGM-COPI
+Formato: WEB; TXT; CSV
+Periodicidade atualização: bimestral
+
+10. Diário Livre
+● Incorporação da ferramenta Diário Livre
+● Aperfeiçoamento das ferramentas de filtro e busca
+● Ferramenta de alerta
+● Permitir o consumo de dados por desenvolvedores
+● Forma mais amigável de apresentação para a população.
+Fonte de dados: Imprensa Oficial + SMGestão
+Formato: TXT;
+Periodicidade atualização: diária
+
+Equipe necessária
+●
+●
+●
+●
+
+1 gerente de projetos (SCRUM Master)
+3 desenvolvedores (scripts, plataforma)
+2 designers
+1 Sysadmin
+
+Tempo para finalização: 4 a 6 meses
+
+Questões a definir
+1. Definir o CMS a priori ? Qual o ideal (WP? Plone?)
+2. Dimensionamento da equipe está adequado?
+3. Divisão de desenvolvimento em módulos
+
+

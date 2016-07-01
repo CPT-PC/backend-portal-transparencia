@@ -17,7 +17,7 @@ Cada um dos termos desse resumo informal pode ser detalhado abaixo e ainda compl
 
 * **Atos**: a publicidade dos atos fica parcialmente resolvida com o [Diário Oficial](https://www.wikidata.org/wiki/Q2065227) tradicional (papel e/ou PDF). Cada *ato* precisaria ser também ser também publicado como documento isolado na Internet, na forma de "separata", em formato aberto (ex. HTML com semântica de blocos marcados), e com identificador único oficial ([ePING](http://eping.governoeletronico.gov.br/) recomenda identificação por [URN LEX](https://www.wikidata.org/wiki/Q6537508) com resolução oficial no [Portal LexML](http://www.lexml.gov.br/)). <br/>*Exemplos*. Na Capital de SP a imprensa oficial se encarrega apenas do papel e do PDF *online*, quem resolve o segundo problema é [Diário Livre](http://devcolab.each.usp.br/do), ainda assim sem identificadores transparentes nem garantia de interoperabilidade. Em Campinas, por outro lado, não se publica mais em papel, e há publicação simultânea do Diário inteiro em PDF e das separatas em HTML, tendo havido também a preocupação em se publicar [boa parte dos *metadados* no LexML](http://www.lexml.gov.br/busca/search?f1-tipoDocumento=Legisla%C3%A7%C3%A3o;f2-localidade=Munic%C3%ADpios::Campinas%C2%A0-%C2%A0SP).
 
-* **Contas**: são de diversos tipos, todas podem ser expressas em planilhas, idealmente fornecidas como [CSV do *tabular-data-model*](https://www.w3.org/TR/tabular-data-model/)... Apesar das normas de contabilidade, não há padrão ou respeito ao bom senso na publicação desses dados. Ainda assim a maioria das autoridades prestadoras de contas forencem ao menos uma indicação do "a fazer/fazendo/feito" na forma de valores relativos a ["planejado/empenhado/liquidado", como ilustrado pelo Cuidando](https://cuidando.vc/?/despesa/2016/2016.37.10.4.122.3024.33909200.90.92.0.2574). O problema grave, que se constata em qualquer auditoria, é a ausência de vínculo da *conta* com o *ato* que lhe deu origem. Perde-se a semântica e a rastreabilidade das contas &ndash; por exemplo sem uma coluna de "ID do Contrato" nas planilhas.  
+* **Contas**: são de diversos tipos, todas podem ser expressas em planilhas, idealmente fornecidas como [CSV do *tabular-data-model*](https://www.w3.org/TR/tabular-data-model/)... Apesar das normas de contabilidade, não há padrão ou respeito ao bom senso na publicação desses dados. Ainda assim a maioria das autoridades prestadoras de contas forencem ao menos uma indicação do "a fazer/fazendo/feito" na forma de valores relativos a ["planejado/empenhado/liquidado", como ilustrado pelo Cuidando](https://cuidando.vc/?/despesa/2016/2016.37.10.4.122.3024.33909200.90.92.0.2574). O problema grave, que se constata em qualquer auditoria, é a ausência de vínculo da *conta* com o *ato* que lhe deu origem. Perde-se a semântica e a rastreabilidade das contas &ndash; por exemplo sem uma coluna de "ID do Contrato" nas planilhas.
  
 ## Objetivo
 Especificar a [arquitetura](https://www.wikidata.org/wiki/Q846636) geral e os padrões a serem respeitados por um sistema de software *online* que implemente o *Portal da Transparência* de um município, detalhando aspectos do [back-end](https://www.wikidata.org/wiki/Q14773417) deste sistema.
@@ -28,6 +28,20 @@ Especificar também, em mais detalhe, alguns casos, tais como o do município de
 * [Requisitos do novo "Portal de Transparência" da capital de SP](docs/caseReqs-saoPaulo.md). Antigo em http://transparencia.prefeitura.sp.gov.br
 
 * ...
+
+# RECOMENDAÇÕES GERAIS
+
+As recomendações foram divididas em RFCs: aquelas que foram votadas como pertinentes e relevantes, foram revisadas e publicadas como parte deste projeto:
+
+* [RFC 01 - Padrões <i>data-interchange</i> recomendados](docs/rfc01.md)
+* [RFC 02 - Modelo de referência para um Portal da Transparência do Município](docs/rfc02.md) 
+* ... outros requisitos ...
+ 
+## Recomendações específicas
+Municípios com recomendações mais específicas:
+
+* ... Recomendações para o back-end do Portal de Transparência do município de São Paulo ...
+* ... outros municípios ...
 
 
 -----
