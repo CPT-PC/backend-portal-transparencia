@@ -23,19 +23,20 @@ Discussões e votos originais desta RFC em [*issue-1*](https://github.com/CPT-PC
 
 ## Padrões fortemente recomendados
 
-* HTML5 na publicação de conteúdos  [2 votos] e XHTML5 na representação interna dos conteúdos  [2 votos].
+Subconjunto [ePING](http://eping.governoeletronico.gov.br/) somado a alguns padrões W3c recentes como o *tabular-data-model*, ou detalhes de protocolo, como JSON-RPC.
 
-    * Marcação [Microdata](https://en.wikipedia.org/wiki/Microdata_(HTML)) 
-    * Referencial semântico, em ordem [1 voto] de precedência: [schemaOrg](http://schema.org/)  [1 voto]; [Wikidata](https://www.wikidata.org) [1 voto]; ordem de mais recomendados do [LOV](http://lov.okfn.org/) [1 voto].
-       * (outra ordem) [0 votos]
+Padrão | Nota | Votos
+------ | -----| -----
+[HTML5](http://www.w3.org/TR/html5) | na publicação de conteúdos | 2 
+[XHTML5](https://www.w3.org/TR/html5/the-xhtml-syntax.html#the-xhtml-syntax) | na representação interna de conteúdos | 2 
+Semântica/[RDFa](http://www.w3.org/TR/rdfa-primer) | Marcação semântica de (X)HTML5 | 1
+Semântica/[JSON-LD](https://www.json-ld.org) | expressão semântica em pacotes de dados| 1 
+Semântica/ vocabulários | Em ordem de precedência: [schemaOrg](http://schema.org/)  [1 voto]; [Wikidata](https://www.wikidata.org) [1 voto];  ordem de mais recomendados do [LOV](http://lov.okfn.org/) [1 voto]. | -
+dados abertos / CSV | Conforme fixado pela [RFC 4180](https://tools.ietf.org/html/rfc4180) e pela recente [W3C tabular-data-model](https://www.w3.org/TR/tabular-data-model/) | 1 
+[JSON RPC](http://www.jsonrpc.org/specification) | no empacotamento dos dados intercambiados.  |2
+[UTF-8](https://en.wikipedia.org/wiki/UTF-8) | não se usa mais ASCII,  Windows-1252 ou ISO 8859-1. Qualquer JSON, CSV, XML, HTML ou TXT deve ser codificado em UTF8. | 1 voto
 
-* CSV fixado pela [RFC 4180](https://tools.ietf.org/html/rfc4180) e [W3C tabular-data-model](https://www.w3.org/TR/tabular-data-model/), compatível demais opções JSON e Web Semâtica.
 
-* [JSON RPC](http://www.jsonrpc.org/specification) no empacotamento dos dados intercambiados.  [2 votos]
-
-* [ePING](http://eping.governoeletronico.gov.br/) 
-
-   * [UTF-8](https://en.wikipedia.org/wiki/UTF-8) não se usa mais ASCII,  Windows-1252 ou ISO 8859-1. Qualquer JSON, CSV, XML, HTML ou TXT deve ser codificado em UTF8. 
 
 # Outros padrões recomendados
 
