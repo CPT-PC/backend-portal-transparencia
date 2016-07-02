@@ -14,7 +14,7 @@ issue: 1
 #RFC 01 - Padrões *data-interchange* recomendados
 
 Recomendação dos padrões a serem adotados no intercâmbio de dados entre módulos, na exposição de dados e na exposição de conteúdos de um Portal da Pransparência Municipal. 
-Discussões desta RFC em [*issue-1*](https://github.com/CPT-PC/backend-portal-transparencia/issues/1), votos na planilha aberta de votações.
+Discussões desta RFC em [*issue-1*](https://github.com/CPT-PC/backend-portal-transparencia/issues/1), votos na [planilha aberta de votações](https://docs.google.com/spreadsheets/d/1hOSJ4OlYaha4b6c4bUE-hemDUQvEhSHESCRh7zRNZWI/edit#gid=1450924500).
 
 ## Conceitos consensuais
 
@@ -35,8 +35,6 @@ Semântica/ vocabulários | Em ordem de precedência: [schemaOrg](http://schema.
 dados abertos / CSV | Conforme fixado pela [RFC 4180](https://tools.ietf.org/html/rfc4180) e pela recente [W3C tabular-data-model](https://www.w3.org/TR/tabular-data-model/) | 1 
 [JSON RPC](http://www.jsonrpc.org/specification) | no empacotamento dos dados intercambiados.  |2
 [UTF-8](https://en.wikipedia.org/wiki/UTF-8) | não se usa mais ASCII,  Windows-1252 ou ISO 8859-1. Qualquer JSON, CSV, XML, HTML ou TXT deve ser codificado em UTF8. | 1 voto
-
-
 
 # Outros padrões recomendados
 
