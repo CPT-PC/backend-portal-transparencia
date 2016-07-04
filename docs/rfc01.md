@@ -1,6 +1,5 @@
 ---
-title: RFC 01 - Padrões recomendados
-type: STD
+type: recomendação
 vers: 0.1
 vers_status: RASCUNHO
 endorsed_n: 2
@@ -9,7 +8,7 @@ layout: page
 issue: 1
 ---
 
-&#160; (série "[Request For Comments](https://en.wikipedia.org/wiki/Request_for_Comments) **deste projeto**)
+&#160; (série "[Request For Comments](https://en.wikipedia.org/wiki/Request_for_Comments) **desta iniciativa**)
 
 #RFC 01 - Padrões *data-interchange* recomendados
 

@@ -1,6 +1,30 @@
-**Case: requisitos da prefeitura de São Paulo**
+---
+vers: 0.1
+vers_status: RASCUNHO
+endorsed_n: 1
+endorsed_status: waiting
+layout: page
+issue: 9
+---
 
-#Recomendações técnicas para o back-end do "Portal de Transparência" da capital de SP
+&#160; (seção "Casos com requisitos mais detalhados")
+
+#Requisitos do Portal de Transparência do município de São Paulo
+
+Levantamento e definições complementares aos "requisitos gerais", dos requisitos do do Portal de Transparência do município de São Paulo.
+
+## LEVANTAMENTO REQUISITOS OBRIGATÓRIOS
+?Nenhuma especificidade do município de São Paulo a ser acrescentada aos requisitos gerais já fixados pelas RFCs.
+
+## LEVANTAMENTO REQUISITOS VOLUNTÁRIOS
+... documentos da CGM, do COLAB, etc.
+
+## RESUMO DOS REQUISITOS DO FRONT-END
+
+... consolidando slides da CGM ... 
+
+
+## REQUISITOS DO BACK-END
 
 ...
 
@@ -17,6 +41,8 @@
 
 ------
 Transcrição do [DOM-SP contendo a ata](http://www.docidadesp.imprensaoficial.com.br/RenderizadorPDF.aspx?ClipID=2M6239RR2LKA4e2IU4MOJVDPFN0). Evento [anunciado aqui](http://www.prefeitura.sp.gov.br/cidade/secretarias/controladoria_geral/noticias/?p=216734) e [**matéria resumindo aqui**](http://www.prefeitura.sp.gov.br/cidade/secretarias/controladoria_geral/noticias/?p=217291) (ver [slides da apresentação](http://www.prefeitura.sp.gov.br/cidade/secretarias/upload/controladoria_geral/Desenvolvimento_Portal_Transparencia.pdf))
+
+
 
 ## ATA DE AUDIÊNCIA PÚBLICA
 

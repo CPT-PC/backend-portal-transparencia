@@ -1,11 +1,11 @@
 # backend-portal-transparencia
-Recomendações técnicas para o *back-end* de um "Portal da Transparência" de um município brasileiro, elaboradas colaborativamente por um coletivo de cidadãos interessados e conhecedores do tema. Detalhamento das recomendações no município de São Paulo, onde [houve recentemente consulta pública e previsão de licitação](http://www.prefeitura.sp.gov.br/cidade/secretarias/controladoria_geral/noticias/?p=217291).
+Recomendações técnicas gerais para o *back-end* de um "Portal da Transparência" de um município brasileiro, elaboradas colaborativamente por um coletivo de cidadãos interessados e conhecedores do tema; e recomendações detalhadas para o município de São Paulo, onde [houve recentemente consulta pública e previsão de licitação](http://www.prefeitura.sp.gov.br/cidade/secretarias/controladoria_geral/noticias/?p=217291).
 
 # Introdução
 
 A obrigatoriedade da publicação dos dados contábeis teve a sua origem nas Leis Complementares [nº 101 de 2000](http://www.lexml.gov.br/urn/urn:lex:br:federal:lei.complementar:2000-05-04;101) ("Lei de Responsabilidade Fiscal")   e [nº 131 de 2009](http://www.lexml.gov.br/urn/urn:lex:br:federal:lei.complementar:2009-05-27;131), depois reforçadas com a [Lei do Acesso à informação em 2011](http://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2011-11-18;12527) (LAI).
 
-Para responder à pergunta «&#160;Quais os requisitos obrigatórios (por lei) do *Portal da Transparência* de um município?&#160;» teríamos que revisar tudo o que dizem as leis federais citadas, aos [decretos adicionais](http://www.portaldatransparencia.gov.br/sobre/Legislacao.asp) e ainda às demais normas que incidem sobre o município, o que foge ao escopo da deste projeto: precisamos apenas de um resumo desses requisitos oriundos das obrigações. 
+Para responder à pergunta «&#160;Quais os requisitos obrigatórios (por lei) do *Portal da Transparência* de um município?&#160;» seria necessário revisar todas as obrigações expressas pelas leis federais citadas, pelos [decretos adicionais](http://www.portaldatransparencia.gov.br/sobre/Legislacao.asp) e ainda pelas demais normas que incidem sobre os municípios, o que foge ao escopo da deste projeto: estamos supondo que tais elementos já se encontram consolidados em outras iniciativas, cabendo a esta apenas indicá-las e resumir.
 
 Além dos requisitos obrigatórios, há uma série de "requisitos voluntários" já consagrados na concepção de um *Portal da Transparência*, a serem também levados em conta: 
 
@@ -13,7 +13,7 @@ Além dos requisitos obrigatórios, há uma série de "requisitos voluntários" 
 * "[requisitos do cidadão](http://cafehacker.prefeitura.sp.gov.br/tag/portal-da-transparencia/)" obtidos dos mais diversos levantamentos, 
 * requisitos dos orgãos de fiscalização, tais como a Controladorias Gerais dos Municípios (CGMs).
 
-As recomendações que se apresentam no [presente git](https://github.com/CPT-PC/backend-portal-transparencia) levam em conta todos esses requisitos.
+As recomendações [da presente iniciativa](https://github.com/CPT-PC/backend-portal-transparencia) levam em conta todos esses requisitos, obrigatórios e voluntários.
 
 ## Conceitos básicos
 Apesar da complexidade do tema, há como se expressar e discutir o assunto com base alguns conceitos norteadores e uma visão geral dos Portais da Transparência aparentemente consensual. O ponto de partida mais simples, para se resgatar tais conceitos e consensos, é um resumo das definições acrescido de links para os conceitos mais específicos:
