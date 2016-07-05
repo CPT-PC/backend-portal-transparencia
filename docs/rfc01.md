@@ -38,6 +38,7 @@ dados abertos / CSV | Conforme fixado pela [RFC 4180](https://tools.ietf.org/htm
 # Outros padrões recomendados
 
 * Identificação única (transparente) de documentos legislativos e jurídicos através de [URN LEX](https://pt.wikipedia.org/wiki/Lex_(URN)), qeu faz parte do ePING e do [LexML](http://projeto.lexml.gov.br/). [1 voto]
-       
+      
+* Acesso em massa: ver [*issue*#9](https://github.com/CPT-PC/backend-portal-transparencia/issues/9) 
 * ... 
 
