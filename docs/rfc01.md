@@ -12,7 +12,7 @@ issue: 1
 
 #RFC 01 - Padrões *data-interchange* recomendados
 
-Recomendação dos padrões a serem adotados no intercâmbio de dados entre módulos, na exposição de dados e na exposição de conteúdos de um Portal da Pransparência Municipal. 
+Recomendação dos padrões a serem adotados no intercâmbio de dados entre módulos, na exposição de dados e na exposição de conteúdos de um Portal da Transparência Municipal. 
 Discussões desta RFC em [*issue-1*](https://github.com/CPT-PC/backend-portal-transparencia/issues/1), votos na [planilha aberta de votações](https://docs.google.com/spreadsheets/d/1hOSJ4OlYaha4b6c4bUE-hemDUQvEhSHESCRh7zRNZWI/edit#gid=1450924500).
 
 ## Conceitos consensuais
