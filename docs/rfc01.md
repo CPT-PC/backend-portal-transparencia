@@ -32,12 +32,12 @@ Semântica/[RDFa](http://www.w3.org/TR/rdfa-primer) | Marcação semântica de (
 Semântica/[JSON-LD](https://www.json-ld.org) | expressão semântica em pacotes de dados| 1 
 Semântica/ vocabulários | Em ordem de precedência: [schemaOrg](http://schema.org/)  [1 voto]; [Wikidata](https://www.wikidata.org) [1 voto];  ordem de mais recomendados do [LOV](http://lov.okfn.org/) [1 voto]. | -
 dados abertos / CSV | Conforme fixado pela [RFC 4180](https://tools.ietf.org/html/rfc4180) e pela recente [W3C tabular-data-model](https://www.w3.org/TR/tabular-data-model/) | 1 
-[JSON RPC](http://www.jsonrpc.org/specification) | no empacotamento dos dados intercambiados.  |2
+[JSON RPC](http://www.jsonrpc.org/specification) | no empacotamento dos dados intercambiados.  | 2
 [UTF-8](https://en.wikipedia.org/wiki/UTF-8) | não se usa mais ASCII,  Windows-1252 ou ISO 8859-1. Qualquer JSON, CSV, XML, HTML ou TXT deve ser codificado em UTF8. | 1 voto
 
 # Outros padrões recomendados
 
-* Identificação única (transparente) de documentos legislativos e jurídicos através de [URN LEX](https://pt.wikipedia.org/wiki/Lex_(URN)), qeu faz parte do ePING e do [LexML](http://projeto.lexml.gov.br/). [1 voto]
+* Identificação única (transparente) de documentos legislativos e jurídicos através de [URN LEX](https://pt.wikipedia.org/wiki/Lex_(URN)), que faz parte do ePING e do [LexML](http://projeto.lexml.gov.br/). [1 voto]
       
 * Acesso em massa: ver [*issue*#9](https://github.com/CPT-PC/backend-portal-transparencia/issues/9) 
 * ... 
