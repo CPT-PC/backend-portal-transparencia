@@ -54,33 +54,7 @@ Municípios com recomendações mais específicas:
 
 
 -----
-
-# Referências informais
-
-Portais de contextualização e ilustração das práticas correntes:
-* Portal da Transparência do poder executivo federal: http://www.portaltransparencia.gov.br/
-* Portal da Transparência do poder executivo  estadual de SP: http://www.portaltransparencia.gov.br/
-* Portal da Transparência do poder executivo municipal da capital de SP: http://transparencia.prefeitura.sp.gov.br
-* ...
-
-Avaliações realizadas sobre os portais existentes
-* GODI: http://index.okfn.org/place/brazil/
-* ... 
-
-
-Iniciativas de formalização de requisitos de portais da transparência do Brasil
-
-Ferramentas mais utilizadas nos portais da transparência:
-* [CKAN](http://www.ckan.org) - plataforma de software para publicação de dados abertos.
-* LexML - padrão brasileiro e portal para publicação de dados legislativos e jurídicos.
-* 
-
-Recursos de apoio:
-* padrões a serem respeitados pelos portais: ePING, W3C.
-* Transparência nas normas http://www.lexml.gov.br/
-* Diários oficiais: http://www.imprensaoficial.com.br/ etc.
-* ...
-
+PS: [referências informais na Wiki](https://github.com/CPT-PC/backend-portal-transparencia/wiki/REFER%C3%8ANCIAS-INFORMAIS).
 
 ## Licença
 
