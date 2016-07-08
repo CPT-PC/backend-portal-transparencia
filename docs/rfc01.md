@@ -37,7 +37,10 @@ dados abertos / CSV | Conforme fixado pela [RFC 4180](https://tools.ietf.org/htm
 
 # Outros padrões recomendados
 
-* Identificação única (transparente) de documentos legislativos e jurídicos através de [URN LEX](https://pt.wikipedia.org/wiki/Lex_(URN)), que faz parte do ePING e do [LexML](http://projeto.lexml.gov.br/). [1 voto]
+* Identificação única (ID) de documentos legislativos e jurídicos, duas opções:
+
+  * (ID transparente) através de [URN LEX](https://pt.wikipedia.org/wiki/Lex_(URN)), que faz parte do ePING e do [LexML](http://projeto.lexml.gov.br/). [1 voto]
+  * (ID semi-transparente) no caso particular de contratos, talvez até conciliável com URN LEX, inscrição no padrão IATI, [iatistandard.org/OrganisationRegistrationAgency](http://iatistandard.org/202/codelists/OrganisationRegistrationAgency/) ou [iatistandard.org/organisation-identifiers](http://iatistandard.org/organisation-identifiers/)
       
 * Acesso em massa: ver [*issue*#9](https://github.com/CPT-PC/backend-portal-transparencia/issues/9) 
 * ... 
