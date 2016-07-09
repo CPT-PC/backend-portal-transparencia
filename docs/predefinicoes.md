@@ -45,16 +45,20 @@ Definidos os termos, resta definir algumas hipóteses (simplificadoras) de traba
 Tendo esse pequeno jargão descritivo das prefeituras, podemos então falar das decisões racionais que elas tenderiam a tomar.
 
 ## Modelo de referência da prefeitura
-Todo Portal da Transparência faz parta da infraestrutura de uma prefeitura, a qual, por sua vez, pode ser caracterizada como uma dentre as seguintes possibilidades:
+Todo Portal da Transparência faz parte da infraestrutura de uma prefeitura, a qual, por sua vez, pode ser caracterizada em uma dentre as seguintes possibilidades:
 
-Sistema (ERP)   | Maturidade | Abrangência | Back-end mais adequado
+Sistema (ERP)   | Maturidade | Abrangência | Back-end recomendado
 --------- | ---------  | ----------- | ----------------
 unificado | alta | alta | tipo-1 direto
 disperso  | alta | alta | tipo-2 agregador
+ausente (‡)  | alta | alta | tipo-3
 unificado | média ou baixa | média  | tipo-3
 disperso  | média ou baixa | média  | tipo-3
 unificado | baixa | baixa | tipo-4
 disperso  | média | baixa | tipo-4
+ausente  | média ou baixa | média ou baixa | tipo-4
+
+&#160; (‡) apesar de possível em prefeituras maduras, a ausência de ERP só faz sentido em municípios muito pequenos.
 
 * tipo-1: recomenda-se utilizar diretamente o ERP da prefeitura (caracterizado como sistema unificado) diretamente, como *back-end* do Portal da Transparência. Um bom ERP permite ajustes para cumprir normas de publicação de dados, sem demanda por um *middleware* adicional.
 
