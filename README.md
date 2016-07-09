@@ -7,10 +7,10 @@ A obrigatoriedade da publicação dos dados contábeis teve a sua origem nas Lei
 
 Para responder à pergunta «&#160;Quais os requisitos obrigatórios (por lei) do *Portal da Transparência* de um município?&#160;» seria necessário revisar todas as obrigações expressas pelas leis federais citadas, pelos [decretos adicionais](http://www.portaldatransparencia.gov.br/sobre/Legislacao.asp) e ainda pelas demais normas que incidem sobre os municípios, o que foge ao escopo da deste projeto: estamos supondo que tais elementos já se encontram consolidados em outras iniciativas, cabendo a esta apenas indicá-las e resumir.
 
-Além dos requisitos obrigatórios, há uma série de "requisitos voluntários" já consagrados na concepção de um *Portal da Transparência*, a serem também levados em conta: 
+Além dos requisitos obrigatórios, há uma série de "requisitos voluntários" já consagrados na concepção de um *Portal da Transparência*, a serem também levados em conta:
 
-* "requisitos das prefeituras" expressos na estrutura que se repete na maior parte dos portais, 
-* "[requisitos do cidadão](http://cafehacker.prefeitura.sp.gov.br/tag/portal-da-transparencia/)" obtidos dos mais diversos levantamentos, 
+* "requisitos das prefeituras" expressos na estrutura que se repete na maior parte dos portais,
+* "[requisitos do cidadão](http://cafehacker.prefeitura.sp.gov.br/tag/portal-da-transparencia/)" obtidos dos mais diversos levantamentos,
 * requisitos dos orgãos de fiscalização, tais como a Controladorias Gerais dos Municípios (CGMs).
 
 As recomendações [da presente iniciativa](https://github.com/CPT-PC/backend-portal-transparencia) levam em conta todos esses requisitos, obrigatórios e voluntários.
@@ -27,7 +27,7 @@ Cada um dos termos desse resumo informal pode ser detalhado abaixo e ainda compl
 * **Atos**: a publicidade dos atos fica parcialmente resolvida com o [Diário Oficial](https://www.wikidata.org/wiki/Q2065227) tradicional (papel e/ou PDF). Cada *ato* precisaria ser também ser também publicado como documento isolado na Internet, na forma de "separata", em formato aberto (ex. HTML com semântica de blocos marcados), e com identificador único oficial ([ePING](http://eping.governoeletronico.gov.br/) recomenda identificação por [URN LEX](https://www.wikidata.org/wiki/Q6537508) com resolução oficial no [Portal LexML](http://www.lexml.gov.br/)). <br/>''Atos típicos'': leis, decretos, portarias, avisos de concurso, informes de contratações ou parcerias, licitações, termos de referência, contratos, extratos de contrato, adendos de contrato. <br/>*Exemplos*. Na Capital de SP a imprensa oficial se encarrega apenas do papel e do PDF *online*, quem resolve o segundo problema é [Diário Livre](http://devcolab.each.usp.br/do), ainda assim sem identificadores transparentes nem garantia de interoperabilidade. Em Campinas, por outro lado, não se publica mais em papel, e há publicação simultânea do Diário inteiro em PDF e das separatas em HTML, tendo havido também a preocupação em se publicar [boa parte dos *metadados* no LexML](http://www.lexml.gov.br/busca/search?f1-tipoDocumento=Legisla%C3%A7%C3%A3o;f2-localidade=Munic%C3%ADpios::Campinas%C2%A0-%C2%A0SP).
 
 * **Contas**: são de diversos tipos, todas podem ser expressas em planilhas, idealmente fornecidas como [CSV do *tabular-data-model*](https://www.w3.org/TR/tabular-data-model/)... Apesar das normas de contabilidade, não há padrão ou respeito ao bom senso na publicação desses dados. Ainda assim a maioria das autoridades prestadoras de contas forencem ao menos uma indicação do "a&#160;fazer/fazendo/feito" na forma de valores relativos a ["planejado/empenhado/liquidado", como ilustrado pelo Cuidando](https://cuidando.vc/?/despesa/2016/2016.37.10.4.122.3024.33909200.90.92.0.2574). O problema grave, que se constata em qualquer auditoria, é a ausência de vínculo da *conta* com o *ato* que lhe deu origem. Perde-se a semântica e a rastreabilidade das contas &ndash; por exemplo sem uma coluna de "ID do Contrato" nas planilhas.
- 
+
 ## Objetivo
 Especificar a [arquitetura](https://www.wikidata.org/wiki/Q846636) geral e os padrões a serem respeitados por um sistema de software *online* que implemente o *Portal da Transparência* de um município, detalhando aspectos do [back-end](https://www.wikidata.org/wiki/Q14773417) deste sistema.
 
@@ -45,7 +45,9 @@ As recomendações foram divididas em RFCs: aquelas que foram votadas como perti
 * [RFC 01 - Padrões <i>data-interchange</i> recomendados](docs/rfc01.md)
 * [RFC 02 - Modelo de referência para um Portal da Transparência do Município](docs/rfc02.md)
 * ... outros requisitos ...
- 
+
+Todas as RFCs fazem use de termos e conceitos adotados especificamente para o contexto deste projetos, sendo descritos na documento (apelidado de RFC 00) das [Predefinições deste projeto](docs/predefinicoes.md).
+
 ## Recomendações específicas
 Municípios com recomendações mais específicas:
 
@@ -59,4 +61,3 @@ PS: [referências informais na Wiki](https://github.com/CPT-PC/backend-portal-tr
 ## Licença
 
 O conteúdo deste projeto em si está licenciado sob a [licença Creative Commons Attribution 4.0] (http://creativecommons.org/licenses/by/4.0/), e o código-fonte subjacente e eventuais algoritmos licenciados sob a [licença MIT] (http://opensource.org/licenses/mit-license.php).
-
