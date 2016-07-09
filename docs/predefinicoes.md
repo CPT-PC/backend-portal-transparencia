@@ -28,11 +28,11 @@ A adoção de alguns termos e conceitos pressupõe um *modelo de referência* da
 
 * A mesma equipe e infraestrtura de TI do governo municipal, pode ser suficiente para o tamanho da cidade, ou não. Chamemos a isso de **grau de abrangência da informatização** (grau *alto*, *médio* ou *baixo*). Opcionalmente "informatização agrangente" refere-se a grau alto.
 
-* ERP da prefeitura: grandes sistemas de gestão unificados, de apoio à administração  e automação dos processos burocráticos, são em geral designados [ERP (sigla do inglês *Enterprise Resource Planning*)](https://en.wikipedia.org/wiki/Enterprise_resource_planning). Hoje em dia cidades com mais de 200 mil habitantes requerem necessariamente um sistema desse tipo, não se pode gerenciar uma cidade apenas com planilhas.
+* **ERP** da prefeitura: grandes sistemas de gestão unificados, de apoio à administração  e automação dos processos burocráticos, são em geral designados [ERP (sigla do inglês *Enterprise Resource Planning*)](https://en.wikipedia.org/wiki/Enterprise_resource_planning). Hoje em dia cidades com mais de 200 mil habitantes requerem necessariamente um sistema desse tipo, não se pode gerenciar uma cidade apenas com planilhas.
 
-* Catálogo de dados da Prefeitura: aplicação Web de catalogação de dados para organização, identificação e publicação de *dados abertos* na forma de arquivos. Referência, [CKAN](http://docs.ckan.org/).
+* **Catálogo** de dados da prefeitura: aplicação Web de catalogação de dados para organização, identificação e publicação de *dados abertos* na forma de arquivos. Referência mais popular, [CKAN](http://docs.ckan.org/). Para conteúdos legislativos e jurídicos o grande catálogo brasileiro é o [LexML](http://www.lexml.gov.br/).
 
-* Preservação digital: garantir que os dados continuem existindo, intactos e corretamente identificados, por anos (!) pode ser uma promesssa difícil de se cumprir. Hoje no Brasil o único repositório orientado à transparência e preservação é o LexML, que garante apenas o acervo de metadados e os recursos de identificação de documentos legislativos e jurídicos. Uma das poucas tecnologias para preservação de documentos em seu inteiro teor é a  [LOCKSS](https://en.wikipedia.org/wiki/LOCKSS), utilizado no Brasil pelo SciELO para o acervo de artigos científicos.
+* **Preservação digital**: garantir que os dados continuem existindo, intactos e corretamente identificados, por anos (!) pode ser uma promesssa difícil de se cumprir. Hoje no Brasil o único repositório orientado à transparência e preservação é o [LexML](http://www.lexml.gov.br/), que garante apenas o acervo de metadados e os recursos de identificação de documentos legislativos e jurídicos. Uma das poucas tecnologias para preservação de documentos em seu inteiro teor é a  [LOCKSS](https://en.wikipedia.org/wiki/LOCKSS), utilizado no Brasil pelo SciELO para o acervo de artigos científicos.
 
 ### Conceitos alinhados com hipóteses de trabalho
 
