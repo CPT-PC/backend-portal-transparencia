@@ -3,9 +3,9 @@ Recomendações técnicas gerais para o *back-end* de um "Portal da Transparênc
 
 # Introdução
 
-A obrigatoriedade da publicação dos dados contábeis teve a sua origem nas Leis Complementares [nº 101 de 2000](http://www.lexml.gov.br/urn/urn:lex:br:federal:lei.complementar:2000-05-04;101) ("Lei de Responsabilidade Fiscal")   e [nº 131 de 2009](http://www.lexml.gov.br/urn/urn:lex:br:federal:lei.complementar:2009-05-27;131), depois reforçadas com a [Lei do Acesso à informação em 2011](http://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2011-11-18;12527) (LAI).
+A obrigatoriedade da publicação dos dados contábeis teve a sua origem nas Leis Complementares [nº 101 de 2000](http://www.lexml.gov.br/urn/urn:lex:br:federal:lei.complementar:2000-05-04;101) ("Lei de Responsabilidade Fiscal")   e [nº 131 de 2009](http://www.lexml.gov.br/urn/urn:lex:br:federal:lei.complementar:2009-05-27;131), depois reforçadas com a [Lei do Acesso à informação em 2011](http://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2011-11-18;12527) (LAI). Em resposta a tais exigências, o poder executivo de diversos municípios passou a manter na Internet o que se convencionou chamar **Portal da Transparência do município**.
 
-Para responder à pergunta «&#160;Quais os requisitos obrigatórios (por lei) do *Portal da Transparência* de um município?&#160;» seria necessário revisar todas as obrigações expressas pelas leis federais citadas, pelos [decretos adicionais](http://www.portaldatransparencia.gov.br/sobre/Legislacao.asp) e ainda pelas demais normas que incidem sobre os municípios, o que foge ao escopo da deste projeto: estamos supondo que tais elementos já se encontram consolidados em outras iniciativas, cabendo a esta apenas indicá-las e resumir.
+Para responder à pergunta «&#160;Quais os requisitos obrigatórios (por lei) do *Portal da Transparência*?&#160;» seria necessário revisar todas as obrigações expressas pelas leis federais citadas, pelos [decretos adicionais](http://www.portaldatransparencia.gov.br/sobre/Legislacao.asp) e ainda pelas demais normas que incidem sobre os municípios, o que foge ao escopo da deste projeto: estamos supondo que tais elementos já se encontram consolidados em diversos estudos (ver referências), cabendo à presente iniciativa apenas resumi-los.
 
 Além dos requisitos obrigatórios, há uma série de "requisitos voluntários" já consagrados na concepção de um *Portal da Transparência*, a serem também levados em conta:
 
@@ -16,11 +16,11 @@ Além dos requisitos obrigatórios, há uma série de "requisitos voluntários" 
 As recomendações [da presente iniciativa](https://github.com/CPT-PC/backend-portal-transparencia) levam em conta todos esses requisitos, obrigatórios e voluntários.
 
 ## Conceitos básicos
-Apesar da complexidade do tema, há como se expressar e discutir o assunto com base alguns conceitos norteadores e uma visão geral dos Portais da Transparência aparentemente consensual. O ponto de partida mais simples, para se resgatar tais conceitos e consensos, é um resumo das definições acrescido de links para os conceitos mais específicos:
+Apesar da complexidade do tema, há como se expressar e discutir o assunto com base em alguns conceitos norteadores, e uma visão geral, aparentemente consensual, dos Portais da Transparência existentes. O ponto de partida mais simples, para se resgatar tais conceitos e consensos, é uma simpse das definições:
 
 > O governo municipal precisa ser ***transparente*** quanto aos seus ***atos*** e as suas ***contas***. Transparente no sentido de "*publicar* para todo mundo ver" e também "para poder ser *auditado* por todos".
 
-Cada um dos termos desse resumo informal pode ser detalhado abaixo e ainda complementado por links aos conceitos formais na Wikidata:
+Cada um dos termos dessa sinopse pode ser detalhado abaixo e ainda complementado por links:
 
 * **Transparência** hoje significa publicar dados oficiais simultaneamente nas entidades competentes de [depósito legal](https://www.wikidata.org/wiki/Q384840) (onde os dados adquirem valor de [prova jurídica](https://www.wikidata.org/wiki/Q176763)) e de amplo *acesso público à informação*, que, no cumprimento da LAI, se traduz em *[publicar na Internet](https://www.wikidata.org/wiki/Q1153191) organizadamente* e em [formatos abertos](http://5stardata.info/pt-BR/). Por fim o requisito de "poder ser [auditado](https://www.wikidata.org/wiki/Q181487)" requer também que haja *consistência* entre os diversos itens de dados, metadados ou conteúdos publicados.
 
