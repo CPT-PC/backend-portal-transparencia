@@ -33,7 +33,7 @@ A seguir possíveis arquiteturas dentro do modelo de referência.
 Tipo 1 - Dados centralizados
 ============================
 
-É o sonho, quando a prefeitura consegue centralizar todos os dados em um só sistema, sendo utilizado por todas as secretarias, tipicamente um [sistema ERP](https://www.google.com/url?q=https://www.wikidata.org/wiki/Q131508&sa=D&ust=1468165781058000&usg=AFQjCNE2R6Yo5-O8aPCtl7udKC_aw2X7Jw) adaptado às especificidades da prefeitura  (portanto também um [GRP](https://www.google.com/url?q=https://www.wikidata.org/wiki/Q25712511&sa=D&ust=1468165781059000&usg=AFQjCNFg9hbRpA3XlshYB-SACAQ0QhXYXA)). Em algumas prefeituras o sonho já é realidade, mesmo assim há que se avaliar qual a arquitetura ideal para “plugar” o ERP com o Portal, e quais os prós e contras de se deixar o Portal a cargo da empresa fornecedora do ERP, ou garantir que o Portal seja mais independente.
+É o sonho, quando a prefeitura consegue centralizar todos os dados em um só sistema, sendo utilizado por todas as secretarias, tipicamente um [sistema ERP](https://www.wikidata.org/wiki/Q131508) adaptado às especificidades da prefeitura  (portanto também um [GRP](https://www.wikidata.org/wiki/Q25712511)). Em algumas prefeituras o sonho já é realidade, mesmo assim há que se avaliar qual a arquitetura ideal para “plugar” o ERP com o Portal, e quais os prós e contras de se deixar o Portal a cargo da empresa fornecedora do ERP, ou garantir que o Portal seja mais independente.
 
 Tipo 1A - Direto
 ----------------
