@@ -6,7 +6,7 @@ vers_status: RASCUNHO
 endorsed_n: 1
 endorsed_status: esperando
 layout: page
-issue: -
+issue: x
 ---
 
 &#160; (série "Request For Comments" **deste projeto**)
