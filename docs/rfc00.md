@@ -36,6 +36,8 @@ Termos e conceitos relativos a uma visão simplificada da  prefeitura.
 
 * **Preservação digital**: recursos e processos que garantem a preservação de longo prazo (anos) dos dados da prefeitura, intactos e corretamente identificados. Referências: [LexML](http://www.lexml.gov.br/) na preservação de metadados legislativos e jurídicos;  [LOCKSS](https://en.wikipedia.org/wiki/LOCKSS) na preservação de documentos oficiais.
 
+[Mais detalhes](rfc00-detalhes.md#terminologia-adotada).
+
 ## Modelo de referência da prefeitura
 
 A descrição simplificada da infraestrutura de informática de uma prefeitura, e das fontes de dados oferecidas por ela, requer que se avalie a  prefeitura dentro de um quadro classificatório dos graus de *maturidade* e *abrangência* da informática. Conforme cada resultado de avaliação será recomendando um tipo de *back-end* diferente.
@@ -76,13 +78,15 @@ Entre o ERP e o Portal tem apenas um pequeno  *middleware* agregador dos dados, 
 
 Na ilustração a API-W lembra que a arquitetura SOA permite inclusive suprir, indiferentemente, a APIs externas, de outros portais.
 
+
 Tipo 1C - Isolado por subsistema persistente
 --------------------------------------------
 
-Acrescentando-se requisitos de "persistência de dados" (legados, versões, etc.), o *middleware* do Tipo-1C se transforma num sistema completo.
+Acrescentando-se requisitos de "persistência de dados" (legados, versões, etc.), o *middleware* do Tipo-1B se transforma num sistema completo.
 
 ![tipo1C](../assets/rfc00/tipo1C.png)
 
+[Mais detalhes](rfc00-detalhes.md#tipo-1a---direto).
 
 Tipo 2 - Dados dispersos
 ========================
