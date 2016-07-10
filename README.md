@@ -42,11 +42,12 @@ Especificar também, em mais detalhe, alguns casos, tais como o do município de
 
 As recomendações foram divididas em RFCs: aquelas que foram votadas como pertinentes e relevantes, foram revisadas e publicadas como parte deste projeto:
 
+* [RFC 00 - Predefinições deste projeto](docs/rfc00.md)
 * [RFC 01 - Padrões <i>data-interchange</i> recomendados](docs/rfc01.md)
 * [RFC 02 - Modelo de referência para um Portal da Transparência do Município](docs/rfc02.md)
 * ... outros requisitos ...
 
-Todas as RFCs fazem use de termos e conceitos adotados especificamente para o contexto deste projetos, sendo descritos na documento (apelidado de RFC 00) das [Predefinições deste projeto](docs/predefinicoes.md).
+Todas as RFCs fazem use de termos e conceitos adotados especificamente para o contexto deste projetos, conforme *RFC&#160;00*.
 
 ## Recomendações específicas
 Municípios com recomendações mais específicas:
