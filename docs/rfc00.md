@@ -8,11 +8,11 @@ layout: page
 issue: 11
 ---
 
-&#160; (série "[Request For Comments](https://en.wikipedia.org/wiki/Request_for_Comments) **desta iniciativa**)
+&#160; (série "[Request For Comments](rfcs.md) **deste projeto**")
 
 #RFC 00 - Predefinições e modelo de maturidade na informatização da prefeitura
 
-RESUMO: define-se alguns elementos do jargão adotado na RFCs, e um "menu" para posicionamento da prefeitura dentro de uma classificação de tipos de demanda e níveis de maturidade. Detalhes em [**rfc00-detalhes**](rfc00-detalhes.md). 
+RESUMO: define-se alguns elementos do jargão adotado na RFCs, e um "menu" para posicionamento da prefeitura dentro de uma classificação de tipos de demanda e níveis de maturidade. Detalhes em [**rfc00-expandida**](rfc00-expandida.md). 
 
 [EM DISCUSSÃO E VOTAÇÃO NA *ISSUE*-11](https://github.com/CPT-PC/backend-portal-transparencia/issues/11).
 
@@ -36,7 +36,7 @@ Termos e conceitos relativos a uma visão simplificada da  prefeitura.
 
 * **Preservação digital**: recursos e processos que garantem a preservação de longo prazo (anos) dos dados da prefeitura, intactos e corretamente identificados. Referências: [LexML](http://www.lexml.gov.br/) na preservação de metadados legislativos e jurídicos;  [LOCKSS](https://en.wikipedia.org/wiki/LOCKSS) na preservação de documentos oficiais.
 
-[Mais detalhes](rfc00-detalhes.md#terminologia-adotada).
+[Mais detalhes](rfc00-expandida.md#terminologia-adotada).
 
 ## Modelo de referência da prefeitura
 
@@ -86,7 +86,7 @@ Acrescentando-se requisitos de "persistência de dados" (legados, versões, etc.
 
 ![tipo1C](../assets/rfc00/tipo1C.png)
 
-[Mais detalhes](rfc00-detalhes.md#tipo-1a---direto).
+[Mais detalhes](rfc00-expandida.md#tipo-1a---direto).
 
 Tipo 2 - Dados dispersos
 ========================

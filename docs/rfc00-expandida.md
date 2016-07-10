@@ -8,7 +8,7 @@ layout: page
 issue: 11
 ---
 
-&#160; (série "[Request For Comments](https://en.wikipedia.org/wiki/Request_for_Comments) **deste projeto**")
+&#160; (série "[Request For Comments](rfcs.md) **deste projeto**")
 
 # RFC 00 - (texto expandido)  Predefinições e modelo de maturidade da prefeitura
 
@@ -69,7 +69,17 @@ ausente  | média ou baixa | média ou baixa | tipo-3 ou 4
 
 &#160; (‡) apesar de possível em prefeituras maduras, a ausência de ERP só faz sentido em municípios muito pequenos.
 
-A seguir a descrição de cada uma dessas arquiteturas recomendadas, e como o *back-end* se encontra nelas estruturado.
+RESUMO DAS RECOMENDAÇÕES:
+
+* tipo-1:  utilizar diretamente o *ERP da prefeitura* diretamente, como *back-end* do Portal da Transparência. 
+
+* tipo-2: para agregar os diversos "ERPs das secretarias" através de um software desenvolvido mais especificamente para isso, que consistirá no *back-end* do Portal.
+
+* tipo-3: (ficar só com o CKAN) apenas quando não há outra opção. 
+
+* tipo-4: garante que nada fique de fora, mas a escolha pode depender de uma avaliação técnica mais apurada.
+
+A seguir a descrição ilustrada de cada uma dessas arquiteturas recomendadas, e como o *back-end* se encontra nelas estruturado.
 
 
 Tipo 1 - Dados centralizados
