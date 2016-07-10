@@ -57,12 +57,12 @@ Cada um dos tipos é descrito a seguir.
 Tipo 1 - Dados centralizados
 ============================
 
-Ocorre quando a prefeitura consegue centralizar todos os dados em um só sistema, sendo utilizado por todas as secretarias, tipicamente um [sistema ERP](https://www.wikidata.org/wiki/Q131508) adaptado às especificidades da prefeitura  (portanto também um [GRP](https://www.wikidata.org/wiki/Q25712511)).
+Esse tipo de arquitetura ocorre quando a prefeitura consegue centralizar todos os dados em um só sistema, tipicamente um [sistema ERP](https://www.wikidata.org/wiki/Q131508), utilizado por todas as secretarias.
 
 Tipo 1A - Direto
 ----------------
 
-Caracteriza-se por ter um só sistema (ERP) em uso para todas as secretarias, e tendo além disso um módulo para a publicação na Web. O próprio ERP faz papel de back-end.
+Utiliza o próprio ERP como *back-end*, e um de seus módulos (encarregado da publicação dos dados na Web) faz papel de *front-end* do Portal da Transparência.
 
 ![tipo1A](../assets/rfc00/tipo1A.png)
 
@@ -70,7 +70,7 @@ Caracteriza-se por ter um só sistema (ERP) em uso para todas as secretarias, e 
 Tipo 1B - Isolado por agregador
 -------------------------------
 
-Forma mais simples de isolamemto do ERP, numa arquitetura orientada a serviços (SOA), centrada no *middleware*, o qual se comporta como *back-end* para alimentar uma série de APIs (mais dedicadas ao *front-end*).
+Entre o ERP e o Portal tem apenas um pequeno  *middleware* agregador dos dados, filtrando e traduzindo para os padrões do Portal.  É suposta uma arquitetura orientada a serviços ([SOA](https://www.wikidata.org/wiki/Q220644)), centrada no *middleware*, o qual se comporta como *back-end* para alimentar uma série de APIs (mais dedicadas ao *front-end*).
 
 ![tipo1B](../assets/rfc00/tipo1B.png)
 
@@ -102,14 +102,14 @@ Tipo 2B - Agregados por sistema com persistência
 Tipo 3 - Sem sistema
 ====================
 
-Por fim, nas prefeituras menos informatizadas não há como automatizar a entrega dos dados, existem apenas arquivos, e apenas eles podem ser publicados, fazendo uso por exemplo do CKAN. Neste caso o Portal da Transparência se resume ao CKAN.
+Numa prefeitura com baixa informatização, o portal se resumo a um sistema do tipo [CKAN](http://ckan.org/), publicando diretamente as planilhas e demais arquivos que as secretarias  disporem.
 
 ![tipo3](../assets/rfc00/tipo3.png)
 
 Tipo 4 - Mix de secretarias com e sem sistema
 =============================================
 
-Na prática, não é nem tão ruim nem tão perfeito, e todas as demandas coexistem na prefeitura.
+Na prática, a maior parte das prefeituras não é nem tão ruim nem tão perfeita, e todas as demandas coexistem, resultando numa demanda por arquitetura híbrida das anteriores (tipos 1 a 3), portanto um pouco mais complexa.
 
 ![tipo4](../assets/rfc00/tipo4.png)
 
