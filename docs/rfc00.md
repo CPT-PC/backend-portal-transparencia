@@ -68,22 +68,25 @@ Dados típicos a serem armazenados numa API, como ilustrado pela API-X, são dad
 
 Também foi ilustrado o caso da API-W, uma API externa que consome os dados do back-end do Portal, mas é orientada a outro front-end e mantida em infraestrutura de terceiros, externa à prefeitura. Organizações da imprensa e  terceiro setor são os principais mantenedores deste tipo de API, mas pode também ocorrer casos de centralização numa infraestrutura de esfera superior do próprio governo, como no caso do LexML. Em ambos os casos, mesmo sendo externas, essas APIs podem ser previstas no projeto e na licitação do portal, através de modelos de contrato para a persistência do serviço externo (vide convênios entre prefeituras e LexML).
 
-Principais justificativas para a separação
+**Principais justificativas para a separação**
 
 No isolamento técnico e independência contratual, entre Portal e prefeitura e entre back-end e as APIs do que compõe o front-end do Portal:
 
 -   Entre sistema do Portal e sistema (ERP) da prefeitura:
 
-	-   segurança: permite isolar o ERP, um sistema seguro em Intranet, da sua exposição pública na Web.
-	-   tráfego: quando o middleware tem capacidade de armazenar dados (gerais para suprir qualquer API), ele isola também o ERP da demanda de acesso, ou seja, os dados são requisitados do ERP apenas uma vez, depois a Web estará acessando do seu banco de dados.
-	-   padronização: o middleware converte dados específicos do ERP para os padrões fixados pelo Portal. Importante quando o ERP não tem um módulo específico para padronizar os dados conforme requisitos do portal, ou quando se preservar o investimento nesta padronização (evitando impacto da mudança de fornecedor do ERP).
-	-   bom negócio: permite licitar/contratar o desenvolvimento ou manutenção do back-end sem impactar nas licitações das APIs e sem monopolizar o fornecimento em torno do fornecedor do ERP.
+	-   **segurança**: permite isolar o ERP, um sistema seguro em Intranet, da sua exposição pública na Web.
+
+	-   **tráfego**: quando o middleware tem capacidade de armazenar dados (gerais para suprir qualquer API), ele isola também o ERP da demanda de acesso, ou seja, os dados são requisitados do ERP apenas uma vez, depois a Web estará acessando do seu banco de dados.
+
+	-   **padronização**: o middleware converte dados específicos do ERP para os padrões fixados pelo Portal. Importante quando o ERP não tem um módulo específico para padronizar os dados conforme requisitos do portal, ou quando se preservar o investimento nesta padronização (evitando impacto da mudança de fornecedor do ERP).
+
+	-   **bom negócio**: permite licitar/contratar o desenvolvimento ou manutenção do back-end sem impactar nas licitações das APIs e sem monopolizar o fornecimento em torno do fornecedor do ERP.
 
 -   (dentro do Portal) Entre back-end e APIs:
 
-	-   interface final: permite “plugar e desplugar” APIs (upgrades ou totalmente diferentes), sem compromenter o investimento na padronização dos dados.
-	-   arquitetura: garante as vantagens de uma arquitetura SOA dentro do Portal.
-	-   bom negócio: permite realizar contratos de desenvolvimento ou manutenção do front-end sem impactar no restante do Portal, assim como realizar contratos com APIs externas.
+	-   **interface final**: permite “plugar e desplugar” APIs (upgrades ou totalmente diferentes), sem compromenter o investimento na padronização dos dados.
+	-   **arquitetura**: garante as vantagens de uma arquitetura SOA dentro do Portal.
+	-   **bom negócio**: permite realizar contratos de desenvolvimento ou manutenção do front-end sem impactar no restante do Portal, assim como realizar contratos com APIs externas.
 
 Tipo 2 - Dados dispersos
 ========================
