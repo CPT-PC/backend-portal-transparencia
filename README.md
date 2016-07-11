@@ -33,7 +33,7 @@ Apesar da complexidade do tema, há como se expressar e discutir o assunto com b
   * sumarizadas em totais, subtotais, etc. 
   * filtradas por ano, secretaria,  local, rúbrica, origem, etc. ou consolidadas por contrato, secretaria, etc.
 
-![](assets/ilustra-AtoConta.png)
+![](assets/ilustra-AtoConta-420px.png)
 
 ## Objetivo
 Especificar a [arquitetura](https://www.wikidata.org/wiki/Q846636) geral e os padrões a serem respeitados por um sistema de software *online* que implemente o *Portal da Transparência* de um município, detalhando aspectos do [back-end](https://www.wikidata.org/wiki/Q14773417) deste sistema.
@@ -46,18 +46,9 @@ Especificar com mais detalhe alguns casos, tais como o do município de São Pau
 
 * ... outros municípios? ...
 
-# RECOMENDAÇÕES GERAIS
-
-As recomendações foram divididas em RFCs: aquelas que foram votadas como pertinentes e relevantes, foram revisadas e publicadas como parte deste projeto:
-
-* [RFC 00 - Predefinições deste projeto](docs/rfc00.md)
-* [RFC 01 - Padrões <i>data-interchange</i> recomendados](docs/rfc01.md)
-* [RFC 02 - Modelo de referência para um Portal da Transparência do Município](docs/rfc02.md)
-* ... outros requisitos ...
-
-Todas as RFCs fazem use de termos e conceitos adotados especificamente para o contexto deste projetos, conforme *RFC&#160;00*.
 
 ## Recomendações específicas
+
 Municípios com recomendações mais específicas:
 
 * ... Recomendações para o back-end do Portal de Transparência do município de São Paulo ...
