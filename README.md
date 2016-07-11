@@ -15,28 +15,36 @@ Além dos requisitos obrigatórios, há uma série de "requisitos voluntários" 
 
 As recomendações [da presente iniciativa](https://github.com/CPT-PC/backend-portal-transparencia) levam em conta todos esses requisitos, obrigatórios e voluntários.
 
-## Conceitos básicos
-Apesar da complexidade do tema, há como se expressar e discutir o assunto com base em alguns conceitos norteadores, e uma visão geral, aparentemente consensual, dos Portais da Transparência existentes. O ponto de partida mais simples, para se resgatar tais conceitos e consensos, é uma simpse das definições:
+## Escopo
+Apesar da complexidade do tema, há como se expressar e discutir o assunto com base em alguns conceitos norteadores:
 
 > O governo municipal precisa ser ***transparente*** quanto aos seus ***atos*** e as suas ***contas***. Transparente no sentido de "*publicar* para todo mundo ver" e também "para poder ser *auditado* por todos".
 
-Cada um dos termos dessa sinopse pode ser detalhado abaixo e ainda complementado por links:
+* **Transpante**: significa que dados e conteúdos são simultaneamente  *publicados* no Diário Oficial e na Internet, cumprindo o amplo acesso previsto pela LAI. Para "poder ser [*auditado*](https://www.wikidata.org/wiki/Q181487)", requer também que os dados e conteúdos estejam em [formatos abertos](http://5stardata.info/pt-BR/), e que haja *consistência* entre os diversos itens de dados, metadados ou conteúdos publicados (ver ilustração abaixo).
 
-* **Transparência** hoje significa publicar dados oficiais simultaneamente nas entidades competentes de [depósito legal](https://www.wikidata.org/wiki/Q384840) (onde os dados adquirem valor de [prova jurídica](https://www.wikidata.org/wiki/Q176763)) e de amplo *acesso público à informação*, que, no cumprimento da LAI, se traduz em *[publicar na Internet](https://www.wikidata.org/wiki/Q1153191) organizadamente* e em [formatos abertos](http://5stardata.info/pt-BR/). Por fim o requisito de "poder ser [auditado](https://www.wikidata.org/wiki/Q181487)" requer também que haja *consistência* entre os diversos itens de dados, metadados ou conteúdos publicados.
+* **Atos**: leis, decretos, portarias, licitações e contratos, são *atos*, expressos na forma de documentos, podendo originar simultaneamento conteúdos (ex. texto), dados (ex. tabelas) e metaddos (extraídos do texto ou complementando ele).
+   * Os metadados permitem auditar a consistência entre *atos* e *contas*, além de identificar univocamente cada *ato* e formalizar outros relacionamentos.
+   * O conteúdo tem  os requisitos jurídicos resolvidos com a publicação no [Diário Oficial](https://www.wikidata.org/wiki/Q2065227) (PDF). 
+   * A *transparência* do conteúdo fica completa com a publicação na Internet (HTML), apoiada pelo uso dos metadados  (publicação no [LexML](http://www.lexml.gov.br/)).
+  
+* **Contas**: relativas a receitas, despesas, orçamentos, empenhos, arrecadações e execuções, [todas](http://transparencia.prefeitura.sp.gov.br/contas/Documents/Receitas_detalhamento_municipal.pdf) são dados dentro do *ERP da prefeitura*, ou de planilhas. Já circulam na contabilidade da prefeitura com certa *padronização*, portanto basta que sejam fornecidas para a publicação na Internet, idealmente como [CSV do *tabular-data-model*](https://www.w3.org/TR/tabular-data-model/) e consistentes com os *atos*. Estes são os chamados "dados brutos", mas, ainda por questões de *transparência*, por requisitos de *auditoria* e acessibilidade, as *contas* devem também consolidados, sumarizados e filtradas:
 
-* **Atos**: a publicidade dos atos fica parcialmente resolvida com o [Diário Oficial](https://www.wikidata.org/wiki/Q2065227) tradicional (papel e/ou PDF). Cada *ato* precisaria ser também ser também publicado como documento isolado na Internet, na forma de "separata", em formato aberto (ex. HTML com semântica de blocos marcados), e com identificador único oficial ([ePING](http://eping.governoeletronico.gov.br/) recomenda identificação por [URN LEX](https://www.wikidata.org/wiki/Q6537508) com resolução oficial no [Portal LexML](http://www.lexml.gov.br/)). <br/>''Atos típicos'': leis, decretos, portarias, avisos de concurso, informes de contratações ou parcerias, licitações, termos de referência, contratos, extratos de contrato, adendos de contrato. <br/>*Exemplos*. Na Capital de SP a imprensa oficial se encarrega apenas do papel e do PDF *online*, quem resolve o segundo problema é [Diário Livre](http://devcolab.each.usp.br/do), ainda assim sem identificadores transparentes nem garantia de interoperabilidade. Em Campinas, por outro lado, não se publica mais em papel, e há publicação simultânea do Diário inteiro em PDF e das separatas em HTML, tendo havido também a preocupação em se publicar [boa parte dos *metadados* no LexML](http://www.lexml.gov.br/busca/search?f1-tipoDocumento=Legisla%C3%A7%C3%A3o;f2-localidade=Munic%C3%ADpios::Campinas%C2%A0-%C2%A0SP).
+  * organizadas por etapas, tais como planejamento/execução ou  planejado/empenhado/liquidado, etc.
+  * sumarizadas em totais, subtotais, etc. 
+  * filtradas por ano, secretaria,  local, rúbrica, origem, etc. ou consolidadas por contrato, secretaria, etc.
 
-* **Contas**: são de diversos tipos, todas podem ser expressas em planilhas, idealmente fornecidas como [CSV do *tabular-data-model*](https://www.w3.org/TR/tabular-data-model/)... Apesar das normas de contabilidade, não há padrão ou respeito ao bom senso na publicação desses dados. Ainda assim a maioria das autoridades prestadoras de contas forencem ao menos uma indicação do "a&#160;fazer/fazendo/feito" na forma de valores relativos a ["planejado/empenhado/liquidado", como ilustrado pelo Cuidando](https://cuidando.vc/?/despesa/2016/2016.37.10.4.122.3024.33909200.90.92.0.2574). O problema grave, que se constata em qualquer auditoria, é a ausência de vínculo da *conta* com o *ato* que lhe deu origem. Perde-se a semântica e a rastreabilidade das contas &ndash; por exemplo sem uma coluna de "ID do Contrato" nas planilhas.
+![](assets/ilustra-AtoConta.png)
 
 ## Objetivo
 Especificar a [arquitetura](https://www.wikidata.org/wiki/Q846636) geral e os padrões a serem respeitados por um sistema de software *online* que implemente o *Portal da Transparência* de um município, detalhando aspectos do [back-end](https://www.wikidata.org/wiki/Q14773417) deste sistema.
 
-Especificar também, em mais detalhe, alguns casos, tais como o do município de São Paulo.
+Especificar com mais detalhe alguns casos, tais como o do município de São Paulo.
 
 ## Casos com requisitos mais detalhados
+
 * [Requisitos do novo "Portal de Transparência" da capital de SP](docs/caseReqs-saoPaulo.md)
 
-* ...
+* ... outros municípios? ...
 
 # RECOMENDAÇÕES GERAIS
 
