@@ -53,9 +53,9 @@ Especificar com mais detalhe alguns casos, tais como o do município de São Pau
 
 As recomendações foram divididas em RFCs: aquelas que foram votadas como pertinentes e relevantes, foram revisadas e publicadas como parte deste projeto:
 
-* [RFC 00 - Predefinições deste projeto](docs/rfc00.md): introduz conceitos e permite a prefeitura reconhecer o modelos de referência mais compatível com a sua realidade. 
+* [RFC 00 - Predefinições deste projeto](docs/rfc00.md): introduz conceitos e permite a prefeitura reconhecer, entre  os modelos de referência, o mais compatível com a sua realidade. 
 
-* [RFC 01 - Padrões <i>data-interchange</i> recomendados](docs/rfc01.md): recomendações gerais mais rígidas, de obediência aos padrões nacioais e interncionais adequados a um Portal.
+* [RFC 01 - Padrões *data-interchange* recomendados](docs/rfc01.md): recomendações gerais mais rígidas, de obediência aos padrões nacioais e interncionais adequados a um Portal e o acesso a dados abertos.
 
 * [RFC 02 - Modelo de referência para um Portal da Transparência do Município](docs/rfc02.md): ... em construção. 
 
