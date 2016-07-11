@@ -20,7 +20,7 @@ As "[Request For Comments](https://en.wikipedia.org/wiki/Request_for_Comments)" 
 
  1. Rotular entre as  [*issues*](https://github.com/CPT-PC/backend-portal-transparencia/issues) quais são [aquelas que são candidatas a RFC](https://github.com/CPT-PC/backend-portal-transparencia/issues?q=is%3Aissue+is%3Aopen+label%3A%22sugest%C3%A3o+de+RFC%22) (recebem o *label* "sugestão de RFC").
 
- 2. Votar nas *issues* candidatas a RFC. ![](../assets/voteNoGitHub.png)
+ 2. Votar nas *issues* candidatas a RFC. ![](../assets/voteNoGitHub-cut.png)
 
  3. Se a RFC-candidata receber mais do que 2 votos, e 50%+1 dos votos forem positvos, um voluntário é requisitado ser redator da RFC.
 
