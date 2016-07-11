@@ -25,11 +25,20 @@ Apesar da complexidade do tema, há como se expressar e discutir o assunto com b
 
 Cada um dos termos dessa sinopse pode ser detalhado e complementado por links:
 
-* **Transparência** hoje significa *publicar* dados e conteúdos oficiais simultaneamente no Diário Oficial &ndash; ou  entidade competente de [depósito legal](https://www.wikidata.org/wiki/Q384840), onde os dados adquirem valor de [prova jurídica](https://www.wikidata.org/wiki/Q176763) tradicional &ndash; e em meio de *acesso à informação* mais amplo, que, no cumprimento da LAI, se traduz em *[publicar na Internet](https://www.wikidata.org/wiki/Q1153191) organizadamente*. Por fim o requisito de "poder ser [*auditado*](https://www.wikidata.org/wiki/Q181487)" requer também que os dados e conteúdos estejam em [formatos abertos](http://5stardata.info/pt-BR/), e que haja *consistência* entre os diversos itens de dados, metadados ou conteúdos publicados.<br/> 
+* **Transpante**: significa que dados e conteúdos são simultaneamente  *publicados* no Diário Oficial &ndash; uma forma de [depósito legal](https://www.wikidata.org/wiki/Q384840) onde a publicação adquire valor de [prova jurídica](https://www.wikidata.org/wiki/Q176763) &ndash; e  *[publicados na Internet](https://www.wikidata.org/wiki/Q1153191)*, cumprindo o amplo acesso previsto pela LAI. Para "poder ser [*auditado*](https://www.wikidata.org/wiki/Q181487)", requer também que os dados e conteúdos estejam em [formatos abertos](http://5stardata.info/pt-BR/), e que haja *consistência* entre os diversos itens de dados, metadados ou conteúdos publicados (ver ilustração abaixo).
 
-* **Contas**: são de diversos tipos, todas podem ser expressas em planilhas, idealmente fornecidas como [CSV do *tabular-data-model*](https://www.w3.org/TR/tabular-data-model/). As *contas* relativas a receitas, despesas, orçamentos, empenhos, arrecadações e execuções, todas são dados dentro do *ERP da prefeitura*. Muitas todavia tem a sua origem no planejamento financeiro, em licitações e em contratos: são informações extraídas diretamente dos respectivos *atos*, e portanto devem ser também consistentes com eles, e rastreáveis através dos respectivos identificadores.
+* **Atos**: leis, decretos, portarias, licitações e contratos, são *atos*, expressos na forma de documentos, podendo originar simultaneamento conteúdos (ex. texto), dados (ex. tabelas) e metaddos (extraídos do texto ou complementando ele).
+   * Os metadados permitem auditar a consistência entre *atos* e *contas*, além de identificar univocamente cada *ato* e formalizar outros relacionamentos.
+   * O conteúdo tem  os requisitos jurídicos resolvidos com a publicação no [Diário Oficial](https://www.wikidata.org/wiki/Q2065227) (ex. PDF). 
+   * A *transparência* do conteúdo fica completa com a publicação na Internet (ex. HTML), apoiada pelo uso dos metadados  (ex. publicação no [LexML](http://www.lexml.gov.br/)).
+  
+* **Contas**: relativas a receitas, despesas, orçamentos, empenhos, arrecadações e execuções, [todas](http://transparencia.prefeitura.sp.gov.br/contas/Documents/Receitas_detalhamento_municipal.pdf) são dados dentro do *ERP da prefeitura*, ou de planilhas. Já circulam na contabilidade da prefeitura com certa padronização, portanto basta que sejam fornecidas para a publicação na Internet, idealmente como [CSV do *tabular-data-model*](https://www.w3.org/TR/tabular-data-model/) e consistentes com os *atos*. Estes são os chamados "dados brutos", mas, ainda por questões de *transparência*, por requisitos de *auditoria* e acessibilidade, as *contas* devem também consolidados, sumarizados e filtradas:
 
-* **Atos**: leis, decretos, portarias, avisos de concurso, informes, licitações, termos de referência, contratos, extratos de contrato, adendos de contrato. A publicidade dos atos fica parcialmente resolvida com o [Diário Oficial](https://www.wikidata.org/wiki/Q2065227) tradicional (papel e/ou PDF). Cada *ato* precisaria ser também publicado na Internet, identificável (ID único oficial), e estruturado em formato aberto: isso se resolve com Diários Oficial que publicam simultaneamente em HTML adequado (ou soluções como o [Diário Livre](http://devcolab.each.usp.br/do)), e o envio do identificador e demais metadados para o [acervo LexML](http://www.lexml.gov.br/).
+  * organizadas por etapas, tais como planejamento/execução ou  planejado/empenhado/liquidado, etc.
+  * sumarizadas em totais, subtotais, etc. 
+  * filtradas por ano, secretaria,  local, rúbrica, origem, etc. ou consolidadas por contrato, secretaria, etc.
+
+![](assets/ilustra-AtoConta.png)
 
 ## Terminologia adotada
 
