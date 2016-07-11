@@ -11,13 +11,13 @@ issue: 12
 # RECOMENDAÇÕES PARA O *BACK-END* DE UM PORTAL DA TRANSPARÊNCIA MUNICIPAL
 
 ## Recomendações gerais
-As recomendações foram divididas em [RFCs](docs/rfcs.md): aquelas que foram votadas como pertinentes e relevantes, foram revisadas e publicadas como parte deste projeto:
+As recomendações foram divididas em [RFCs](rfcs.md): aquelas que foram votadas como pertinentes e relevantes, foram revisadas e publicadas como parte deste projeto:
 
-* [**RFC 00** - Predefinições deste projeto](docs/rfc00.md): introduz conceitos e permite a prefeitura reconhecer, entre  os modelos de referência, o mais compatível com a sua realidade. 
+* [**RFC 00** - Predefinições deste projeto](rfc00.md): introduz conceitos e permite a prefeitura reconhecer, entre  os modelos de referência, o mais compatível com a sua realidade. 
 
-* [**RFC 01** - Padrões *data-interchange* recomendados](docs/rfc01.md): recomendações gerais mais rígidas, de obediência aos padrões nacioais e interncionais adequados a um Portal e o acesso a dados abertos.
+* [**RFC 01** - Padrões *data-interchange* recomendados](rfc01.md): recomendações gerais mais rígidas, de obediência aos padrões nacioais e interncionais adequados a um Portal e o acesso a dados abertos.
 
-* [**RFC 02** - Modelo de referência para um Portal da Transparência do Município](docs/rfc02.md): ... em construção. 
+* [**RFC 02** - Modelo de referência para um Portal da Transparência do Município](rfc02.md): ... em construção. 
 
 * [**RFC 03** - Requisitos adicionais](#): ainda não definida.
 
@@ -42,8 +42,6 @@ Municípios com recomendações mais específicas:
 
 * O código-fonte e a descrição do coletivo mantenedor das recomendações, são mantidos em [github.com/CPT-PC/backend-portal-transparencia](https://github.com/CPT-PC/backend-portal-transparencia).
 
-*  [**RFCs** - Redação e controle de versões](docs/rfcs.md): os procedimentos de sugestão e aprovação das recomendações são descritos junto com os esclarecimentos sobre redação e controle das RFCs.
+*  [**RFCs** - Redação e controle de versões](rfcs.md): os procedimentos de sugestão e aprovação das recomendações são descritos junto com os esclarecimentos sobre redação e controle das RFCs.
 
 * Referências bibliográficas e outras fontes: está previsto o preparo uma RFC para isso, por hora apenas uma lista informal na Wiki.
-
-
