@@ -35,6 +35,8 @@ Apesar da complexidade do tema, há como se expressar e discutir o assunto com b
 
 ![](assets/ilustra-AtoConta-420px.png)
 
+-----
+
 ## Objetivo
 Especificar a [arquitetura](https://www.wikidata.org/wiki/Q846636) geral e os padrões a serem respeitados por um sistema de software *online* que implemente o *Portal da Transparência* de um município, detalhando aspectos do [back-end](https://www.wikidata.org/wiki/Q14773417) deste sistema.
 
@@ -46,6 +48,27 @@ Especificar com mais detalhe alguns casos, tais como o do município de São Pau
 
 * ... outros municípios? ...
 
+
+# RECOMENDAÇÕES GERAIS
+
+As recomendações foram divididas em RFCs: aquelas que foram votadas como pertinentes e relevantes, foram revisadas e publicadas como parte deste projeto:
+
+* [RFC 00 - Predefinições deste projeto](docs/rfc00.md): introduz conceitos e permite a prefeitura reconhecer o modelos de referência mais compatível com a sua realidade. 
+
+* [RFC 01 - Padrões <i>data-interchange</i> recomendados](docs/rfc01.md): recomendações gerais mais rígidas, de obediência aos padrões nacioais e interncionais adequados a um Portal.
+
+* [RFC 02 - Modelo de referência para um Portal da Transparência do Município](docs/rfc02.md): ... em construção. 
+
+* [RFC 03 - Requisitos adicionais](#): ainda não definida.
+
+Todas as RFCs fazem use de termos e conceitos adotados especificamente para o contexto deste projetos, conforme *RFC&#160;00*.
+
+As recomendações tentam ser consistentes com a realidade e demandas da prefeitura. Uma prefeitura já bem informatizada e integrada em torno de um sistema tipo ERP, pode demandar apenas um módulo de relatório e publicação, 
+![](assets/tipo1B-420px.png)
+
+No caso geral, de qualquer forma, coexistem diversos sistemas e necessidades, exigindo uma arquitetura de Portal da Transparência um pouco mais complexa:
+
+![](assets/tipo4-420px.png)
 
 ## Recomendações específicas
 
