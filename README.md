@@ -64,11 +64,11 @@ As recomendações foram divididas em RFCs: aquelas que foram votadas como perti
 Todas as RFCs fazem use de termos e conceitos adotados especificamente para o contexto deste projetos, conforme *RFC&#160;00*.
 
 As recomendações tentam ser consistentes com a realidade e demandas da prefeitura. Uma prefeitura já bem informatizada e integrada em torno de um sistema tipo ERP, pode demandar apenas um módulo de relatório e publicação, 
-![](assets/tipo1B-420px.png)
+![](assets/rfc00/tipo1B-420px.png)
 
 No caso geral, de qualquer forma, coexistem diversos sistemas e necessidades, exigindo uma arquitetura de Portal da Transparência um pouco mais complexa:
 
-![](assets/tipo4-420px.png)
+![](assets/rfc00/tipo4-420px.png)
 
 ## Recomendações específicas
 
