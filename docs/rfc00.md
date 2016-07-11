@@ -42,16 +42,16 @@ Termos e conceitos relativos a uma visão simplificada da  prefeitura.
 
 A descrição simplificada da infraestrutura de informática de uma prefeitura, e das fontes de dados oferecidas por ela, requer que se avalie a  prefeitura dentro de um quadro classificatório dos graus de *maturidade* e *abrangência* da informática. Conforme cada resultado de avaliação será recomendando um tipo de *back-end* diferente.
 
-Sistema (ERP)   | Maturidade | Abrangência | Back-end recomendado
+Sistema (ERP)   | Maturidade | Abrangência | Arquitetura recomendado
 --------- | ---------  | ----------- | ----------------
-unificado | alta | alta | tipo-1 direto
-disperso  | alta | alta | tipo-2 agregador
-ausente (‡)  | alta | alta | tipo-3
-unificado | média ou baixa | média  | tipo-3
-disperso  | média ou baixa | média  | tipo-3
-unificado | baixa | baixa | tipo-4
+unificado | alta | alta | tipo-1 ou 4
+disperso  | alta | alta | tipo-2 ou 4 
+ausente   | alta | alta | tipo-3
+unificado | média ou baixa | média  | tipo-2 ou 4
+disperso  | média ou baixa | média  | tipo-4
+unificado | baixa | baixa | tipo-3 ou 4
 disperso  | média | baixa | tipo-4
-ausente  | média ou baixa | média ou baixa | tipo-4
+ausente  | média ou baixa | média ou baixa | tipo-3 ou 4
 
 Cada um dos tipos é descrito a seguir.
 
