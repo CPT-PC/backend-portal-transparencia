@@ -88,7 +88,7 @@ Tipo 1A - Direto
 
 Utiliza o próprio ERP como *back-end*, e um de seus módulos (encarregado da publicação dos dados na Web) faz papel de *front-end* do Portal da Transparência.
 
-![tipo1A](../assets/rfc00/tipo1A.png)
+![tipo1A](assets/rfc00/tipo1A.png)
 
 
 Tipo 1B - Isolado por agregador
@@ -96,7 +96,7 @@ Tipo 1B - Isolado por agregador
 
 Entre o ERP e o Portal tem apenas um pequeno  *middleware* agregador dos dados, filtrando e traduzindo para os padrões do Portal.  É suposta uma arquitetura orientada a serviços ([SOA](https://www.wikidata.org/wiki/Q220644)), centrada no *middleware*, o qual se comporta como *back-end* para alimentar uma série de APIs (mais dedicadas ao *front-end*).
 
-![tipo1B](../assets/rfc00/tipo1B.png)
+![tipo1B](assets/rfc00/tipo1B.png)
 
 Na ilustração a API-W lembra que a arquitetura SOA permite inclusive suprir, indiferentemente, a APIs externas, de outros portais.
 
@@ -106,7 +106,7 @@ Tipo 1C - Isolado por subsistema persistente
 
 Acrescentando-se requisitos de "persistência de dados" (legados, versões, etc.), o *middleware* do Tipo-1B se transforma num sistema completo.
 
-![tipo1C](../assets/rfc00/tipo1C.png)
+![tipo1C](assets/rfc00/tipo1C.png)
 
 [Mais detalhes](rfc00-expandida.md#tipo-1a---direto).
 
@@ -118,24 +118,24 @@ Nas prefeituras que não dispõe de um ERP centralizando tudo, é comum que cada
 Tipo 2A - Agregados por middleware
 ----------------------------------
 
-![tipo2A](../assets/rfc00/tipo2A.png)
+![tipo2A](assets/rfc00/tipo2A.png)
 
 Tipo 2B - Agregados por sistema com persistência
 ------------------------------------------------
 
-![tipo2B](../assets/rfc00/tipo2B.png)
+![tipo2B](assets/rfc00/tipo2B.png)
 
 Tipo 3 - Sem sistema
 ====================
 
 Numa prefeitura com baixa informatização, o portal se resumo a um sistema do tipo [CKAN](http://ckan.org/), publicando diretamente as planilhas e demais arquivos que as secretarias  disporem.
 
-![tipo3](../assets/rfc00/tipo3.png)
+![tipo3](assets/rfc00/tipo3.png)
 
 Tipo 4 - Mix de secretarias com e sem sistema
 =============================================
 
 Na prática, a maior parte das prefeituras não é nem tão ruim nem tão perfeita, e todas as demandas coexistem, resultando numa demanda por arquitetura híbrida das anteriores (tipos 1 a 3), portanto um pouco mais complexa.
 
-![tipo4](../assets/rfc00/tipo4.png)
+![tipo4](assets/rfc00/tipo4.png)
 
