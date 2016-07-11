@@ -30,7 +30,7 @@ As "[Request For Comments](https://en.wikipedia.org/wiki/Request_for_Comments)" 
 
  6. Se aprovada, o redator indica o número de votos no `endorsed_n` e a `vers` como *1.0*. <br/>NOTA: em casos especiais, quando a RFC for muito longa, sugere-se quebra do documento em duas versões, uma simplificada (arquivo `rfcXX`) e uma expandida (arquivi `rfcXX-expandida`), a exemplo do que foi feito com a [rfc00](rfc00.md).
 
- 7. Acrescenta-se uma linha no [README principal](../README.md) do projeto, sob a seção "REDOMENDAÇÕES", com link para a RFC.
+ 7. Acrescenta-se uma linha no [idenx](index.md) do projeto, sob a seção "REDOMENDAÇÕES", com link para a RFC.
 
  8. ... são possíveis "merges" e revisões maiores, mas há que se registrar todo o processo numa *issue*.
 
