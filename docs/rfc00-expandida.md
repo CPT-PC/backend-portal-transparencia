@@ -18,6 +18,19 @@ RESUMO: define-se alguns elementos do jargão adotado na RFCs, e um "menu" para 
 
 --------
 
+## Fundamentos adotados
+Apesar da complexidade do tema, há como se expressar e discutir o assunto com base em alguns conceitos norteadores, e uma visão geral, aparentemente consensual, dos Portais da Transparência existentes. O ponto de partida mais simples, para se resgatar tais conceitos e consensos, é uma sinopse das definições:
+
+> O governo municipal precisa ser ***transparente*** quanto aos seus ***atos*** e as suas ***contas***. Transparente no sentido de "*publicar* para todo mundo ver" e também "para poder ser *auditado* por todos".
+
+Cada um dos termos dessa sinopse pode ser detalhado e complementado por links:
+
+* **Transparência** hoje significa *publicar* dados e conteúdos oficiais simultaneamente no Diário Oficial &ndash; ou  entidade competente de [depósito legal](https://www.wikidata.org/wiki/Q384840), onde os dados adquirem valor de [prova jurídica](https://www.wikidata.org/wiki/Q176763) tradicional &ndash; e em meio de *acesso à informação* mais amplo, que, no cumprimento da LAI, se traduz em *[publicar na Internet](https://www.wikidata.org/wiki/Q1153191) organizadamente*. Por fim o requisito de "poder ser [*auditado*](https://www.wikidata.org/wiki/Q181487)" requer também que os dados e conteúdos estejam em [formatos abertos](http://5stardata.info/pt-BR/), e que haja *consistência* entre os diversos itens de dados, metadados ou conteúdos publicados.<br/> 
+
+* **Contas**: são de diversos tipos, todas podem ser expressas em planilhas, idealmente fornecidas como [CSV do *tabular-data-model*](https://www.w3.org/TR/tabular-data-model/). As *contas* relativas a receitas, despesas, orçamentos, empenhos, arrecadações e execuções, todas são dados dentro do *ERP da prefeitura*. Muitas todavia tem a sua origem no planejamento financeiro, em licitações e em contratos: são informações extraídas diretamente dos respectivos *atos*, e portanto devem ser também consistentes com eles, e rastreáveis através dos respectivos identificadores.
+
+* **Atos**: leis, decretos, portarias, avisos de concurso, informes, licitações, termos de referência, contratos, extratos de contrato, adendos de contrato. A publicidade dos atos fica parcialmente resolvida com o [Diário Oficial](https://www.wikidata.org/wiki/Q2065227) tradicional (papel e/ou PDF). Cada *ato* precisaria ser também publicado na Internet, identificável (ID único oficial), e estruturado em formato aberto: isso se resolve com Diários Oficial que publicam simultaneamente em HTML adequado (ou soluções como o [Diário Livre](http://devcolab.each.usp.br/do)), e o envio do identificador e demais metadados para o [acervo LexML](http://www.lexml.gov.br/).
+
 ## Terminologia adotada
 
 A adoção de alguns termos e conceitos pressupõe um *modelo de referência* da própria prefeitura, conforme seu grau de informatização, e uma visão consensual sobre como diferentes sistemas podem se conectar e interoperar. Os conceitos abresentados também fazem uma certa simplificação da realidade, para viabilizar a sua descrição.
