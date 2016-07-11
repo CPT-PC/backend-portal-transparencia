@@ -18,7 +18,8 @@ RESUMO: define-se alguns elementos do jargão adotado na RFCs, e um "menu" para 
 
 --------
 
-## Fundamentos adotados
+## Escopo e conceitos básicos
+
 Apesar da complexidade do tema, há como se expressar e discutir o assunto com base em alguns conceitos norteadores, e uma visão geral, aparentemente consensual, dos Portais da Transparência existentes. O ponto de partida mais simples, para se resgatar tais conceitos e consensos, é uma sinopse das definições:
 
 > O governo municipal precisa ser ***transparente*** quanto aos seus ***atos*** e as suas ***contas***. Transparente no sentido de "*publicar* para todo mundo ver" e também "para poder ser *auditado* por todos".
@@ -44,7 +45,7 @@ Cada um dos termos dessa sinopse pode ser detalhado e complementado por links:
 
 A adoção de alguns termos e conceitos pressupõe um *modelo de referência* da própria prefeitura, conforme seu grau de informatização, e uma visão consensual sobre como diferentes sistemas podem se conectar e interoperar. Os conceitos abresentados também fazem uma certa simplificação da realidade, para viabilizar a sua descrição.
 
-* **modelo de referência**: recurso descritivo para prover fundamentos e entendimentos consensuais de um tema, contextualizando sistemas e estabelecendo arquiteturas padronizadas. Exemplos: [*OSI model*](https://en.wikipedia.org/wiki/OSI_model), [*OGC Reference Model*](http://rap.opengeospatial.org/orm.php).
+* **modelo de referência**: recurso descritivo para prover fundamentos e entendimentos consensuais de um tema, contextualizando sistemas e estabelecendo arquiteturas padronizadas. Exemplos: [*OSI model*](https://en.wikipedia.org/wiki/OSI_model), [*OGC Reference Model*](http://rap.opengeospatial.org/orm.php), [Modelo de Referência LexML](http://projeto.lexml.gov.br/documentacao/Parte-1-Modelo-de-Referencia.pdf).
 
 * Toda prefeitura é composta de **secretarias** (ex. Saúde, Obras e Educação), que é uma espécie de "divisão por assunto". Além delas há algo como o *gabinete*, que faz o papel de "secretaria central".
 
@@ -63,6 +64,8 @@ A adoção de alguns termos e conceitos pressupõe um *modelo de referência* da
 * *back-end* e *front-end* de um sistema: noção utilizada na descrição de sistemas de software, para a separação das duas principais preocupações da equipe de desenvolvimento, ou uma visão dos seus módulos principais:
   *  ***front-end***: é a parte do sistema que se preocupa mais diretamente com o usuário final, com a interface do sistema e a forma como os dados serão visualizados ou acessados.
   *  ***back-end***: é o restante do sistema, em geral mais associado à base de dados ou ao processamento das fontes de dados.
+
+* **API**: mais precisamente [*Web* API](https://en.wikipedia.org/wiki/Web_API), do inglês "[Application Programming Interface](https://www.wikidata.org/wiki/Q165194)". É a forma mais comum e difundida de se organizar os softwares Web que trabalham em [arquitetura SOA](https://www.wikidata.org/wiki/Q220644). Os módulos e pacotes de ambos,  *front-end* e *back-end* de um sistema, podem ser expressos como APIs.
 
 ### Hipóteses de trabalho
 
@@ -186,4 +189,12 @@ Tipo 4 - Mix de secretarias com e sem sistema
 Na prática, a maior parte das prefeituras não é nem tão ruim nem tão perfeita, e todas as demandas coexistem, resultando numa demanda por arquitetura híbrida das anteriores (tipos 1 a 3), portanto um pouco mais complexa.
 
 ![tipo4](../assets/rfc00/tipo4.png)
+
+-----
+
+# Créditos e referências
+
+Os tipos 1 a 3 foram inspirados no artigo "[Getting your data together: routes towards an OCDS API](http://www.open-contracting.org/2016/06/30/getting-data-together-routes-towards-ocds-api/)", do blog da *Open Contracting* (junho de 2016).
+
+Por todas as demais referências do projeto estão sendo revisadas, há apenas um rascunho listando [referências informais na Wiki](https://github.com/CPT-PC/backend-portal-transparencia/wiki/REFER%C3%8ANCIAS-INFORMAIS).
 
